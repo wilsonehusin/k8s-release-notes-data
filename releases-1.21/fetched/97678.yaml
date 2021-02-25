@@ -1,0 +1,20 @@
+commit: 466e2e3751c0cb515a7c6e85225cb981b8b9b985
+text: migrate proxy/iptables/proxier.go logs to structured logging
+markdown: Migrate proxy/iptables/proxier.go logs to structured logging ([#97678](https://github.com/kubernetes/kubernetes/pull/97678),
+  [@JornShen](https://github.com/JornShen)) [SIG Network]
+documentation: []
+author: JornShen
+authorurl: https://github.com/JornShen
+prurl: https://github.com/kubernetes/kubernetes/pull/97678
+prnumber: 97678
+areas: []
+kinds:
+- cleanup
+sigs:
+- network
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

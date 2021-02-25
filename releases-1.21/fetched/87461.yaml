@@ -1,0 +1,23 @@
+commit: 61dc69ac2cf936ccafb51e9d946097b62b4ead07
+text: Change the calculation of pod UIDs so that static pods get a unique value -
+  will cause all containers to be killed and recreated after in-place upgrade.
+markdown: Change the calculation of pod UIDs so that static pods get a unique value
+  - will cause all containers to be killed and recreated after in-place upgrade. ([#87461](https://github.com/kubernetes/kubernetes/pull/87461),
+  [@bboreham](https://github.com/bboreham)) [SIG Node]
+documentation: []
+author: bboreham
+authorurl: https://github.com/bboreham
+prurl: https://github.com/kubernetes/kubernetes/pull/87461
+prnumber: 87461
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,27 @@
+commit: e2f018dcda5f68fbcc110b3f02895c15f764839d
+text: 'kubectl: `kubectl get` will omit managed fields by default now. Users could
+  set `--show-managed-fields` to true to show managedFields when the output format
+  is either `json` or `yaml`.'
+markdown: 'Kubectl: `kubectl get` will omit managed fields by default now. Users could
+  set `--show-managed-fields` to true to show managedFields when the output format
+  is either `json` or `yaml`. ([#96878](https://github.com/kubernetes/kubernetes/pull/96878),
+  [@knight42](https://github.com/knight42)) [SIG CLI and Testing]'
+documentation: []
+author: knight42
+authorurl: https://github.com/knight42
+prurl: https://github.com/kubernetes/kubernetes/pull/96878
+prnumber: 96878
+areas:
+- kubectl
+- test
+kinds:
+- feature
+sigs:
+- cli
+- testing
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

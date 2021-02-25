@@ -1,0 +1,24 @@
+commit: c1b3797f4b1f8f5f5d6613c2f6412c69a147d0ec
+text: |-
+  Fixed a bug that on k8s nodes, when the policy of INPUT chain in filter table is not ACCEPT, healthcheck nodeport would not work.
+  Added iptables rules to allow healthcheck nodeport traffic.
+markdown: |-
+  Fixed a bug that on k8s nodes, when the policy of INPUT chain in filter table is not ACCEPT, healthcheck nodeport would not work.
+    Added iptables rules to allow healthcheck nodeport traffic. ([#97824](https://github.com/kubernetes/kubernetes/pull/97824), [@hanlins](https://github.com/hanlins)) [SIG Network]
+documentation: []
+author: hanlins
+authorurl: https://github.com/hanlins
+prurl: https://github.com/kubernetes/kubernetes/pull/97824
+prnumber: 97824
+areas:
+- ipvs
+kinds:
+- bug
+sigs:
+- network
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

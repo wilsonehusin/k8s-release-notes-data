@@ -1,0 +1,29 @@
+commit: e11e9d4c6c3f522ed398748a11cc5dd1f8949c2b
+text: Bump github.com/Azure/go-autorest/autorest to v0.11.12
+markdown: Bump github.com/Azure/go-autorest/autorest to v0.11.12 ([#97033](https://github.com/kubernetes/kubernetes/pull/97033),
+  [@patrickshan](https://github.com/patrickshan)) [SIG API Machinery, CLI, Cloud Provider
+  and Cluster Lifecycle]
+documentation: []
+author: patrickshan
+authorurl: https://github.com/patrickshan
+prurl: https://github.com/kubernetes/kubernetes/pull/97033
+prnumber: 97033
+areas:
+- apiserver
+- cloudprovider
+- dependency
+- kubectl
+- provider/azure
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- cli
+- cloud-provider
+- cluster-lifecycle
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

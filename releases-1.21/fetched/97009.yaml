@@ -1,0 +1,24 @@
+commit: 74b4f3d0151f5c007f168d62f93cde12fdb9de98
+text: Add flag --lease-reuse-duration-seconds for kube-apiserver to config etcd lease
+  reuse duration.
+markdown: Add flag --lease-reuse-duration-seconds for kube-apiserver to config etcd
+  lease reuse duration. ([#97009](https://github.com/kubernetes/kubernetes/pull/97009),
+  [@lingsamuel](https://github.com/lingsamuel)) [SIG API Machinery and Scalability]
+documentation: []
+author: lingsamuel
+authorurl: https://github.com/lingsamuel
+prurl: https://github.com/kubernetes/kubernetes/pull/97009
+prnumber: 97009
+areas:
+- apiserver
+kinds:
+- feature
+sigs:
+- api-machinery
+- scalability
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

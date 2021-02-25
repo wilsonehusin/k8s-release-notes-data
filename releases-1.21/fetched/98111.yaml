@@ -1,0 +1,21 @@
+commit: 055e8edfaea25bb104d6c444b0a21ca4e268b479
+text: The kubectl alpha debug command was scheduled to be removed in v1.21.
+markdown: The kubectl alpha debug command was scheduled to be removed in v1.21. ([#98111](https://github.com/kubernetes/kubernetes/pull/98111),
+  [@pandaamanda](https://github.com/pandaamanda)) [SIG CLI]
+documentation: []
+author: pandaamanda
+authorurl: https://github.com/pandaamanda
+prurl: https://github.com/kubernetes/kubernetes/pull/98111
+prnumber: 98111
+areas:
+- kubectl
+kinds:
+- cleanup
+sigs:
+- cli
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

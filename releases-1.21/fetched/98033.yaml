@@ -1,0 +1,27 @@
+commit: 54d48d2b806a298528bb22e6263112bf829222b8
+text: feature gate RootCAConfigMap is graduated to GA in 1.21 and will be removed
+  in 1.22.
+markdown: Feature gate RootCAConfigMap is graduated to GA in 1.21 and will be removed
+  in 1.22. ([#98033](https://github.com/kubernetes/kubernetes/pull/98033), [@zshihang](https://github.com/zshihang))
+  [SIG API Machinery and Auth]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-auth/1205-bound-service-account-tokens
+  type: KEP
+author: zshihang
+authorurl: https://github.com/zshihang
+prurl: https://github.com/kubernetes/kubernetes/pull/98033
+prnumber: 98033
+areas:
+- apiserver
+kinds:
+- feature
+sigs:
+- api-machinery
+- auth
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

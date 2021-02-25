@@ -1,0 +1,23 @@
+commit: 73118aecca618fd07a5dbeaff6a69b6200a4c381
+text: Fixed a bug in kubelet that will saturate CPU utilization after containerd got
+  restarted.
+markdown: Fixed a bug in kubelet that will saturate CPU utilization after containerd
+  got restarted. ([#97174](https://github.com/kubernetes/kubernetes/pull/97174), [@hanlins](https://github.com/hanlins))
+  [SIG Node]
+documentation: []
+author: hanlins
+authorurl: https://github.com/hanlins
+prurl: https://github.com/kubernetes/kubernetes/pull/97174
+prnumber: 97174
+areas:
+- dependency
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

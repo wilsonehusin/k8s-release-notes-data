@@ -1,0 +1,24 @@
+commit: 0a0490e34fb28ac91e147bafbd252a97df98a6b5
+text: Fixes using server-side apply with APIService resources
+markdown: Fixes using server-side apply with APIService resources ([#98576](https://github.com/kubernetes/kubernetes/pull/98576),
+  [@kevindelgado](https://github.com/kevindelgado)) [SIG API Machinery, Apps and Testing]
+documentation: []
+author: kevindelgado
+authorurl: https://github.com/kevindelgado
+prurl: https://github.com/kubernetes/kubernetes/pull/98576
+prnumber: 98576
+areas:
+- test
+kinds:
+- api-change
+- bug
+sigs:
+- api-machinery
+- apps
+- testing
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

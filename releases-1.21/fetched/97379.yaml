@@ -1,0 +1,22 @@
+commit: eff5b075f19dbb981a06bcd9b093b93a163dc981
+text: Change the APIVersion proto name of BoundObjectRef from aPIVersion to apiVersion.
+markdown: Change the APIVersion proto name of BoundObjectRef from aPIVersion to apiVersion.
+  ([#97379](https://github.com/kubernetes/kubernetes/pull/97379), [@kebe7jun](https://github.com/kebe7jun))
+  [SIG Auth]
+documentation: []
+author: kebe7jun
+authorurl: https://github.com/kebe7jun
+prurl: https://github.com/kubernetes/kubernetes/pull/97379
+prnumber: 97379
+areas: []
+kinds:
+- api-change
+- bug
+sigs:
+- auth
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

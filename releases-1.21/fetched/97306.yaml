@@ -1,0 +1,26 @@
+commit: c6789a175be8c1eea5758573fb9a75adc65f7752
+text: The deprecated feature gates `RotateKubeletClientCertificate`, `AttachVolumeLimit`,
+  `VolumePVCDataSource` and `EvenPodsSpread` are now unconditionally enabled and can
+  no longer be specified in component invocations.
+markdown: The deprecated feature gates `RotateKubeletClientCertificate`, `AttachVolumeLimit`,
+  `VolumePVCDataSource` and `EvenPodsSpread` are now unconditionally enabled and can
+  no longer be specified in component invocations. ([#97306](https://github.com/kubernetes/kubernetes/pull/97306),
+  [@gavinfish](https://github.com/gavinfish)) [SIG Node, Scheduling and Storage]
+documentation: []
+author: gavinfish
+authorurl: https://github.com/gavinfish
+prurl: https://github.com/kubernetes/kubernetes/pull/97306
+prnumber: 97306
+areas: []
+kinds:
+- cleanup
+sigs:
+- node
+- scheduling
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

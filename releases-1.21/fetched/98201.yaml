@@ -1,0 +1,22 @@
+commit: 3d8dd2517faa4062c52690fae77ddfd4b72246f3
+text: avoid duplicate error messages when runing kubectl edit quota
+markdown: Avoid duplicate error messages when runing kubectl edit quota ([#98201](https://github.com/kubernetes/kubernetes/pull/98201),
+  [@pacoxu](https://github.com/pacoxu)) [SIG API Machinery and Apps]
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/98201
+prnumber: 98201
+areas: []
+kinds:
+- bug
+- cleanup
+sigs:
+- api-machinery
+- apps
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

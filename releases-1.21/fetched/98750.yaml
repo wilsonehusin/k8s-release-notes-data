@@ -1,0 +1,22 @@
+commit: 9273c3be128e19bdc75eadbfbde0eb6ba3b1f1d3
+text: Fixes a panic in the disruption budget controller for PDB objects with invalid
+  selectors
+markdown: Fixes a panic in the disruption budget controller for PDB objects with invalid
+  selectors ([#98750](https://github.com/kubernetes/kubernetes/pull/98750), [@mortent](https://github.com/mortent))
+  [SIG Apps]
+documentation: []
+author: mortent
+authorurl: https://github.com/mortent
+prurl: https://github.com/kubernetes/kubernetes/pull/98750
+prnumber: 98750
+areas: []
+kinds:
+- bug
+sigs:
+- apps
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,21 @@
+commit: e26570a96ecf3a908357b7fd3d99f803aece9ad2
+text: Add ignore-errors flag for drain, support none-break drain in group.
+markdown: Add ignore-errors flag for drain, support none-break drain in group. ([#98203](https://github.com/kubernetes/kubernetes/pull/98203),
+  [@yuzhiquan](https://github.com/yuzhiquan)) [SIG CLI]
+documentation: []
+author: yuzhiquan
+authorurl: https://github.com/yuzhiquan
+prurl: https://github.com/kubernetes/kubernetes/pull/98203
+prnumber: 98203
+areas:
+- kubectl
+kinds:
+- feature
+sigs:
+- cli
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

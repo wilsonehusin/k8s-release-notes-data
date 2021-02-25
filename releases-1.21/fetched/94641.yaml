@@ -1,0 +1,21 @@
+commit: 4d752791315e61fe1bedcdfba81c38045bff209f
+text: The `RunAsGroup` feature has been promoted to GA in this release.
+markdown: The `RunAsGroup` feature has been promoted to GA in this release. ([#94641](https://github.com/kubernetes/kubernetes/pull/94641),
+  [@krmayankk](https://github.com/krmayankk)) [SIG Auth and Node]
+documentation: []
+author: krmayankk
+authorurl: https://github.com/krmayankk
+prurl: https://github.com/kubernetes/kubernetes/pull/94641
+prnumber: 94641
+areas: []
+kinds:
+- feature
+sigs:
+- auth
+- node
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

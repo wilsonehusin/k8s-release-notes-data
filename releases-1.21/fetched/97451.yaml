@@ -1,0 +1,24 @@
+commit: f9c7c59e25d2ae82bf7b3d72ec65e41c712f24bd
+text: fix counting error in service/nodeport/loadbalancer quota check
+markdown: Fix counting error in service/nodeport/loadbalancer quota check ([#97451](https://github.com/kubernetes/kubernetes/pull/97451),
+  [@pacoxu](https://github.com/pacoxu)) [SIG API Machinery, Network and Testing]
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/97451
+prnumber: 97451
+areas:
+- apiserver
+- test
+kinds:
+- bug
+sigs:
+- api-machinery
+- network
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

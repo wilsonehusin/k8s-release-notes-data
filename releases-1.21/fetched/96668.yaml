@@ -1,0 +1,23 @@
+commit: af212061870489bdc1e4e252de1d1c3ca884916f
+text: ignore update pod with no new images in alwaysPullImages admission controller
+markdown: Ignore update pod with no new images in alwaysPullImages admission controller
+  ([#96668](https://github.com/kubernetes/kubernetes/pull/96668), [@pacoxu](https://github.com/pacoxu))
+  [SIG Apps, Auth and Node]
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/96668
+prnumber: 96668
+areas: []
+kinds:
+- bug
+sigs:
+- apps
+- auth
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

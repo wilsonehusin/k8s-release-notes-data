@@ -1,0 +1,33 @@
+commit: 5e22f7feadeb97aa8fad9330c936104479ad56d6
+text: kube-proxy's IPVS proxy mode no longer sets the net.ipv4.conf.all.route_localnet
+  sysctl parameter. Nodes upgrading will have net.ipv4.conf.all.route_localnet set
+  to 1 but new nodes will inherit the system default (usually 0). If you relied on
+  any behavior requiring net.ipv4.conf.all.route_localnet, you must set ensure it
+  is enabled as kube-proxy will no longer set it automatically. This change helps
+  to further mitigate CVE-2020-8558.
+markdown: Kube-proxy's IPVS proxy mode no longer sets the net.ipv4.conf.all.route_localnet
+  sysctl parameter. Nodes upgrading will have net.ipv4.conf.all.route_localnet set
+  to 1 but new nodes will inherit the system default (usually 0). If you relied on
+  any behavior requiring net.ipv4.conf.all.route_localnet, you must set ensure it
+  is enabled as kube-proxy will no longer set it automatically. This change helps
+  to further mitigate CVE-2020-8558. ([#92938](https://github.com/kubernetes/kubernetes/pull/92938),
+  [@lbernail](https://github.com/lbernail)) [SIG Network and Release]
+documentation: []
+author: lbernail
+authorurl: https://github.com/lbernail
+prurl: https://github.com/kubernetes/kubernetes/pull/92938
+prnumber: 92938
+areas:
+- ipvs
+- release-eng
+kinds:
+- bug
+sigs:
+- network
+- release
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

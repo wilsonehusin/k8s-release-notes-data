@@ -1,0 +1,20 @@
+commit: fa3be1bcd2e3b9cf02dede40ddff5c2bc800bf27
+text: Scores from InterPodAffinity have stronger differentiation.
+markdown: Scores from InterPodAffinity have stronger differentiation. ([#98096](https://github.com/kubernetes/kubernetes/pull/98096),
+  [@leileiwan](https://github.com/leileiwan)) [SIG Scheduling]
+documentation: []
+author: leileiwan
+authorurl: https://github.com/leileiwan
+prurl: https://github.com/kubernetes/kubernetes/pull/98096
+prnumber: 98096
+areas: []
+kinds:
+- bug
+sigs:
+- scheduling
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

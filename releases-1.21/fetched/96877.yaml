@@ -1,0 +1,21 @@
+commit: 4fe132954f731db75934cbf04d499651fef079ab
+text: NONE
+markdown: NONE ([#96877](https://github.com/kubernetes/kubernetes/pull/96877), [@xeniumlee](https://github.com/xeniumlee))
+  [SIG Node]
+documentation: []
+author: xeniumlee
+authorurl: https://github.com/xeniumlee
+prurl: https://github.com/kubernetes/kubernetes/pull/96877
+prnumber: 96877
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: true
+datafields: {}

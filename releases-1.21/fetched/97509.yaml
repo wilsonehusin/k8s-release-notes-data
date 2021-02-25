@@ -1,0 +1,22 @@
+commit: 172cb33f3270d25bcdafbd084614523f5ca2dd13
+text: Migrate log messages in pkg/scheduler/{scheduler.go,factory.go} to structured
+  logging
+markdown: Migrate log messages in pkg/scheduler/{scheduler.go,factory.go} to structured
+  logging ([#97509](https://github.com/kubernetes/kubernetes/pull/97509), [@aldudko](https://github.com/aldudko))
+  [SIG Scheduling]
+documentation: []
+author: aldudko
+authorurl: https://github.com/aldudko
+prurl: https://github.com/kubernetes/kubernetes/pull/97509
+prnumber: 97509
+areas: []
+kinds:
+- cleanup
+sigs:
+- scheduling
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

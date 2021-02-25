@@ -1,0 +1,21 @@
+commit: 75115236e77c08698d6fdd91c3c9d0897de44ad6
+text: Fix missing cadvisor machine metrics.
+markdown: Fix missing cadvisor machine metrics. ([#97006](https://github.com/kubernetes/kubernetes/pull/97006),
+  [@lingsamuel](https://github.com/lingsamuel)) [SIG Node]
+documentation: []
+author: lingsamuel
+authorurl: https://github.com/lingsamuel
+prurl: https://github.com/kubernetes/kubernetes/pull/97006
+prnumber: 97006
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

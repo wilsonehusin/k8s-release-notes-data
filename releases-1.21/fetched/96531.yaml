@@ -1,0 +1,24 @@
+commit: 197dbac376fa0fece31ec8b7052ccda161a79518
+text: The feature gates `WindowsGMSA` and `WindowsRunAsUserName` that are GA since
+  v1.18 are now removed.
+markdown: The feature gates `WindowsGMSA` and `WindowsRunAsUserName` that are GA since
+  v1.18 are now removed. ([#96531](https://github.com/kubernetes/kubernetes/pull/96531),
+  [@ialidzhikov](https://github.com/ialidzhikov)) [SIG Node and Windows]
+documentation: []
+author: ialidzhikov
+authorurl: https://github.com/ialidzhikov
+prurl: https://github.com/kubernetes/kubernetes/pull/96531
+prnumber: 96531
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- node
+- windows
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

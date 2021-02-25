@@ -1,0 +1,25 @@
+commit: c04058418f7bb7df226d71d516ed4db918969288
+text: Remove alpha CSIMigrationXXComplete flag and add alpha InTreePluginXXUnregister
+  flag. Deprecate CSIMigrationvSphereComplete flag and it will be removed in 1.22.
+markdown: Remove alpha CSIMigrationXXComplete flag and add alpha InTreePluginXXUnregister
+  flag. Deprecate CSIMigrationvSphereComplete flag and it will be removed in 1.22.
+  ([#98243](https://github.com/kubernetes/kubernetes/pull/98243), [@Jiawei0227](https://github.com/Jiawei0227))
+  [SIG Node and Storage]
+documentation: []
+author: Jiawei0227
+authorurl: https://github.com/Jiawei0227
+prurl: https://github.com/kubernetes/kubernetes/pull/98243
+prnumber: 98243
+areas:
+- kubelet
+kinds:
+- feature
+sigs:
+- node
+- storage
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

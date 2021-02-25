@@ -1,0 +1,25 @@
+commit: bb310acad5ad73aa98da377c583415510543643d
+text: Remove storage metrics `storage_operation_errors_total`, since we already have
+  `storage_operation_status_count`.And add new field `status` for `storage_operation_duration_seconds`,
+  so that we can know about all status storage operation latency.
+markdown: Remove storage metrics `storage_operation_errors_total`, since we already
+  have `storage_operation_status_count`.And add new field `status` for `storage_operation_duration_seconds`,
+  so that we can know about all status storage operation latency. ([#98332](https://github.com/kubernetes/kubernetes/pull/98332),
+  [@JornShen](https://github.com/JornShen)) [SIG Instrumentation and Storage]
+documentation: []
+author: JornShen
+authorurl: https://github.com/JornShen
+prurl: https://github.com/kubernetes/kubernetes/pull/98332
+prnumber: 98332
+areas: []
+kinds:
+- feature
+sigs:
+- instrumentation
+- storage
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

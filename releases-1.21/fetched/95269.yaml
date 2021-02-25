@@ -1,0 +1,23 @@
+commit: e40cba59e32529595a138fe92c54da5aa3edd73e
+text: fix the panic when kubelet registers if a node object already exists with no
+  Status.Capacity or Status.Allocatable
+markdown: Fix the panic when kubelet registers if a node object already exists with
+  no Status.Capacity or Status.Allocatable ([#95269](https://github.com/kubernetes/kubernetes/pull/95269),
+  [@SataQiu](https://github.com/SataQiu)) [SIG Node]
+documentation: []
+author: SataQiu
+authorurl: https://github.com/SataQiu
+prurl: https://github.com/kubernetes/kubernetes/pull/95269
+prnumber: 95269
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,22 @@
+commit: 32093b0447e86c6808c78e597ec2a3ceac054c57
+text: 'kubeadm: fix a bug in the host memory detection code on 32bit Linux platforms'
+markdown: 'Kubeadm: fix a bug in the host memory detection code on 32bit Linux platforms
+  ([#97403](https://github.com/kubernetes/kubernetes/pull/97403), [@abelbarrera15](https://github.com/abelbarrera15))
+  [SIG Cluster Lifecycle]'
+documentation: []
+author: abelbarrera15
+authorurl: https://github.com/abelbarrera15
+prurl: https://github.com/kubernetes/kubernetes/pull/97403
+prnumber: 97403
+areas:
+- kubeadm
+kinds:
+- bug
+sigs:
+- cluster-lifecycle
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

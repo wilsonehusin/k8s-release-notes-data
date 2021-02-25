@@ -1,0 +1,28 @@
+commit: 3534e31ade5f6e79499b2d5fcca0d74033a01a45
+text: Kubernetes is now built using go1.15.8
+markdown: Kubernetes is now built using go1.15.8 ([#98834](https://github.com/kubernetes/kubernetes/pull/98834),
+  [@cpanato](https://github.com/cpanato)) [SIG Cloud Provider, Instrumentation, Release
+  and Testing]
+documentation: []
+author: cpanato
+authorurl: https://github.com/cpanato
+prurl: https://github.com/kubernetes/kubernetes/pull/98834
+prnumber: 98834
+areas:
+- dependency
+- provider/gcp
+- release-eng
+- test
+kinds:
+- feature
+sigs:
+- cloud-provider
+- instrumentation
+- release
+- testing
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

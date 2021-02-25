@@ -1,0 +1,22 @@
+commit: 5e7d62ecfc80f26b9e9c4d73ee599f304bc31615
+text: Update cri-tools to [v1.20.0](https://github.com/kubernetes-sigs/cri-tools/releases/tag/v1.20.0)
+markdown: Update cri-tools to [v1.20.0](https://github.com/kubernetes-sigs/cri-tools/releases/tag/v1.20.0)
+  ([#97967](https://github.com/kubernetes/kubernetes/pull/97967), [@rajibmitra](https://github.com/rajibmitra))
+  [SIG Cloud Provider]
+documentation: []
+author: rajibmitra
+authorurl: https://github.com/rajibmitra
+prurl: https://github.com/kubernetes/kubernetes/pull/97967
+prnumber: 97967
+areas:
+- provider/gcp
+kinds:
+- cleanup
+sigs:
+- cloud-provider
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

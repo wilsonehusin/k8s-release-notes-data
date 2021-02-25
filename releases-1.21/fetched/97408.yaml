@@ -1,0 +1,22 @@
+commit: af8594ff998c17a59ce74ee2be8e02b0ea153df4
+text: kubectl wait ensures that observedGeneration >= generation if applicable
+markdown: Kubectl wait ensures that observedGeneration >= generation if applicable
+  ([#97408](https://github.com/kubernetes/kubernetes/pull/97408), [@KnicKnic](https://github.com/KnicKnic))
+  [SIG CLI]
+documentation: []
+author: KnicKnic
+authorurl: https://github.com/KnicKnic
+prurl: https://github.com/kubernetes/kubernetes/pull/97408
+prnumber: 97408
+areas:
+- kubectl
+kinds:
+- feature
+sigs:
+- cli
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

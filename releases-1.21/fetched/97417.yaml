@@ -1,0 +1,22 @@
+commit: 2490a797a28ba31c60d3f4c3deec8d2920a749d6
+text: fix Azure file share not deleted issue when the namespace is deleted
+markdown: Fix Azure file share not deleted issue when the namespace is deleted ([#97417](https://github.com/kubernetes/kubernetes/pull/97417),
+  [@andyzhangx](https://github.com/andyzhangx)) [SIG Cloud Provider and Storage]
+documentation: []
+author: andyzhangx
+authorurl: https://github.com/andyzhangx
+prurl: https://github.com/kubernetes/kubernetes/pull/97417
+prnumber: 97417
+areas:
+- provider/azure
+kinds:
+- bug
+sigs:
+- cloud-provider
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

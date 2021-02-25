@@ -1,0 +1,22 @@
+commit: 8725c3bf12cfd3697464136201216fa05dc662d2
+text: 'kubeadm: deprecated command "alpha selfhosting pivot" is removed now.'
+markdown: 'Kubeadm: deprecated command "alpha selfhosting pivot" is removed now. ([#97627](https://github.com/kubernetes/kubernetes/pull/97627),
+  [@knight42](https://github.com/knight42)) [SIG Cluster Lifecycle]'
+documentation: []
+author: knight42
+authorurl: https://github.com/knight42
+prurl: https://github.com/kubernetes/kubernetes/pull/97627
+prnumber: 97627
+areas:
+- kubeadm
+kinds:
+- cleanup
+- deprecation
+sigs:
+- cluster-lifecycle
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

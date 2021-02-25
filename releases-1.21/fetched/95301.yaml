@@ -1,0 +1,22 @@
+commit: 55626cf2c6c5bea38380b7abc9f2771100cb2579
+text: Kubelet now cleans up orphaned volume directories automatically
+markdown: Kubelet now cleans up orphaned volume directories automatically ([#95301](https://github.com/kubernetes/kubernetes/pull/95301),
+  [@lorenz](https://github.com/lorenz)) [SIG Node and Storage]
+documentation: []
+author: lorenz
+authorurl: https://github.com/lorenz
+prurl: https://github.com/kubernetes/kubernetes/pull/95301
+prnumber: 95301
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

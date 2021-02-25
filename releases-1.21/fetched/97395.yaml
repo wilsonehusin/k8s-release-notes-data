@@ -1,0 +1,31 @@
+commit: 24f13032b3e3d4c7c5dfbe86c40be5d038e58614
+text: New admission controller "denyserviceexternalips" is available.  Clusters which
+  do not *need- the Service "externalIPs" feature should enable this controller and
+  be more secure.
+markdown: New admission controller "denyserviceexternalips" is available.  Clusters
+  which do not *need- the Service "externalIPs" feature should enable this controller
+  and be more secure. ([#97395](https://github.com/kubernetes/kubernetes/pull/97395),
+  [@thockin](https://github.com/thockin)) [SIG API Machinery]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/pull/2176
+  type: KEP
+- description: '[CVE]'
+  url: https://github.com/kubernetes/kubernetes/issues/97110
+  type: external
+author: thockin
+authorurl: https://github.com/thockin
+prurl: https://github.com/kubernetes/kubernetes/pull/97395
+prnumber: 97395
+areas:
+- apiserver
+kinds:
+- feature
+sigs:
+- api-machinery
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,23 @@
+commit: b2a5d67dd5784bdc4fa90b6c64a395de10b814b8
+text: Add `csi_operations_seconds` metric on kubelet that exposes CSI operations duration
+  and status for node CSI operations.
+markdown: Add `csi_operations_seconds` metric on kubelet that exposes CSI operations
+  duration and status for node CSI operations. ([#98979](https://github.com/kubernetes/kubernetes/pull/98979),
+  [@Jiawei0227](https://github.com/Jiawei0227)) [SIG Instrumentation and Storage]
+documentation: []
+author: Jiawei0227
+authorurl: https://github.com/Jiawei0227
+prurl: https://github.com/kubernetes/kubernetes/pull/98979
+prnumber: 98979
+areas: []
+kinds:
+- feature
+sigs:
+- instrumentation
+- storage
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

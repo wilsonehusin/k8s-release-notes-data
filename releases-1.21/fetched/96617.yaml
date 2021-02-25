@@ -1,0 +1,21 @@
+commit: efb9489acb8602835aa7bd9299424415d9492ace
+text: Fix to recover CSI volumes from certain dangling attachments
+markdown: Fix to recover CSI volumes from certain dangling attachments ([#96617](https://github.com/kubernetes/kubernetes/pull/96617),
+  [@yuga711](https://github.com/yuga711)) [SIG Apps and Storage]
+documentation: []
+author: yuga711
+authorurl: https://github.com/yuga711
+prurl: https://github.com/kubernetes/kubernetes/pull/96617
+prnumber: 96617
+areas: []
+kinds:
+- bug
+sigs:
+- apps
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

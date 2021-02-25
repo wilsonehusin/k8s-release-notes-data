@@ -1,0 +1,22 @@
+commit: a410c14020017c7bedeb4c501758088155c66fb7
+text: readjust kubelet_containers_per_pod_count bucket
+markdown: Readjust kubelet_containers_per_pod_count bucket ([#98169](https://github.com/kubernetes/kubernetes/pull/98169),
+  [@wawa0210](https://github.com/wawa0210)) [SIG Instrumentation and Node]
+documentation: []
+author: wawa0210
+authorurl: https://github.com/wawa0210
+prurl: https://github.com/kubernetes/kubernetes/pull/98169
+prnumber: 98169
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- instrumentation
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,31 @@
+commit: a8e819350c7bae604b1e757bbd94d5777f672be1
+text: |-
+  base-images: Update to debian-iptables:buster-v1.4.0
+  - Uses iptables 1.8.5
+  - base-images: Update to debian-base:buster-v1.3.0
+  - cluster/images/etcd: Build etcd:3.4.13-2 image
+    - Uses debian-base:buster-v1.3.0
+markdown: |-
+  Base-images: Update to debian-iptables:buster-v1.4.0
+    - Uses iptables 1.8.5
+    - base-images: Update to debian-base:buster-v1.3.0
+    - cluster/images/etcd: Build etcd:3.4.13-2 image
+      - Uses debian-base:buster-v1.3.0 ([#98401](https://github.com/kubernetes/kubernetes/pull/98401), [@pacoxu](https://github.com/pacoxu)) [SIG Testing]
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/98401
+prnumber: 98401
+areas:
+- release-eng
+- test
+kinds:
+- feature
+sigs:
+- testing
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

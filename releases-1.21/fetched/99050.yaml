@@ -1,0 +1,22 @@
+commit: aa28a3563b5161a7a07d1a07afedc4d1d248bc47
+text: Add `migrated` field into `storage_operation_duration_seconds` metric
+markdown: Add `migrated` field into `storage_operation_duration_seconds` metric ([#99050](https://github.com/kubernetes/kubernetes/pull/99050),
+  [@Jiawei0227](https://github.com/Jiawei0227)) [SIG Apps, Instrumentation and Storage]
+documentation: []
+author: Jiawei0227
+authorurl: https://github.com/Jiawei0227
+prurl: https://github.com/kubernetes/kubernetes/pull/99050
+prnumber: 99050
+areas: []
+kinds:
+- feature
+sigs:
+- apps
+- instrumentation
+- storage
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

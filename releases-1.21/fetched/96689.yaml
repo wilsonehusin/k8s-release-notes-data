@@ -1,0 +1,23 @@
+commit: fc43c80ccd0569298c81b2be080aa7dbb6132e95
+text: Detach volumes from vSphere nodes not tracked by attach-detach controller
+markdown: Detach volumes from vSphere nodes not tracked by attach-detach controller
+  ([#96689](https://github.com/kubernetes/kubernetes/pull/96689), [@gnufied](https://github.com/gnufied))
+  [SIG Cloud Provider and Storage]
+documentation: []
+author: gnufied
+authorurl: https://github.com/gnufied
+prurl: https://github.com/kubernetes/kubernetes/pull/96689
+prnumber: 96689
+areas:
+- cloudprovider
+kinds:
+- bug
+sigs:
+- cloud-provider
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,21 @@
+commit: 9d99dbc357ed85bcc963fc4bab8a4a3089c910b2
+text: Ensure that client-go's EventBroadcaster is safe (non-racy) during shutdown.
+markdown: Ensure that client-go's EventBroadcaster is safe (non-racy) during shutdown.
+  ([#95664](https://github.com/kubernetes/kubernetes/pull/95664), [@DirectXMan12](https://github.com/DirectXMan12))
+  [SIG API Machinery]
+documentation: []
+author: DirectXMan12
+authorurl: https://github.com/DirectXMan12
+prurl: https://github.com/kubernetes/kubernetes/pull/95664
+prnumber: 95664
+areas: []
+kinds:
+- bug
+sigs:
+- api-machinery
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

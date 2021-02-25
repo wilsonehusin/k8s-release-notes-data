@@ -1,0 +1,24 @@
+commit: de4d771d3b8741cc4d5a470ea44e60951fa58966
+text: Mitigate CVE-2020-8555 for kube-up using GCE by preventing local loopback folume
+  hosts.
+markdown: Mitigate CVE-2020-8555 for kube-up using GCE by preventing local loopback
+  folume hosts. ([#97934](https://github.com/kubernetes/kubernetes/pull/97934), [@mattcary](https://github.com/mattcary))
+  [SIG Cloud Provider and Storage]
+documentation: []
+author: mattcary
+authorurl: https://github.com/mattcary
+prurl: https://github.com/kubernetes/kubernetes/pull/97934
+prnumber: 97934
+areas:
+- provider/gcp
+kinds:
+- bug
+sigs:
+- cloud-provider
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,29 @@
+commit: bd4d197b5267ee198c1b0a070d7398f10df68c52
+text: Remove the deprecated metrics "scheduling_algorithm_preemption_evaluation_seconds"
+  and "binding_duration_seconds", suggest to use "scheduler_framework_extension_point_duration_seconds"
+  instead.
+markdown: Remove the deprecated metrics "scheduling_algorithm_preemption_evaluation_seconds"
+  and "binding_duration_seconds", suggest to use "scheduler_framework_extension_point_duration_seconds"
+  instead. ([#96447](https://github.com/kubernetes/kubernetes/pull/96447), [@chendave](https://github.com/chendave))
+  [SIG Cluster Lifecycle, Instrumentation, Scheduling and Testing]
+documentation: []
+author: chendave
+authorurl: https://github.com/chendave
+prurl: https://github.com/kubernetes/kubernetes/pull/96447
+prnumber: 96447
+areas:
+- test
+kinds:
+- cleanup
+- deprecation
+sigs:
+- cluster-lifecycle
+- instrumentation
+- scheduling
+- testing
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}
