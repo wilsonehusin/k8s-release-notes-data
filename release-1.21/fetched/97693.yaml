@@ -1,0 +1,24 @@
+commit: d1db90ba579e9c01194f92ba6daff852e3b4c6e7
+text: The OIDC authenticator no longer waits 10 seconds before attempting to fetch
+  the metadata required to verify tokens.
+markdown: The OIDC authenticator no longer waits 10 seconds before attempting to fetch
+  the metadata required to verify tokens. ([#97693](https://github.com/kubernetes/kubernetes/pull/97693),
+  [@enj](https://github.com/enj)) [SIG API Machinery and Auth]
+documentation: []
+author: enj
+authorurl: https://github.com/enj
+prurl: https://github.com/kubernetes/kubernetes/pull/97693
+prnumber: 97693
+areas:
+- apiserver
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- auth
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

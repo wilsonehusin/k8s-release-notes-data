@@ -1,0 +1,20 @@
+commit: 7e2e928f3920825f17096c959500f7b72dc51f8e
+text: NONE
+markdown: NONE ([#99063](https://github.com/kubernetes/kubernetes/pull/99063), [@ZxYuan](https://github.com/ZxYuan))
+  [SIG API Machinery]
+documentation: []
+author: ZxYuan
+authorurl: https://github.com/ZxYuan
+prurl: https://github.com/kubernetes/kubernetes/pull/99063
+prnumber: 99063
+areas: []
+kinds:
+- cleanup
+sigs:
+- api-machinery
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: true
+datafields: {}

@@ -1,0 +1,31 @@
+commit: b7fc3f91ea64eff4be673449e08df581eeddf42c
+text: The `export` query parameter (inconsistently supported by API resources and
+  deprecated in v1.14) is fully removed.  Requests setting this query parameter will
+  now receive a 400 status response.
+markdown: The `export` query parameter (inconsistently supported by API resources
+  and deprecated in v1.14) is fully removed.  Requests setting this query parameter
+  will now receive a 400 status response. ([#98312](https://github.com/kubernetes/kubernetes/pull/98312),
+  [@deads2k](https://github.com/deads2k)) [SIG API Machinery, Auth and Testing]
+documentation: []
+author: deads2k
+authorurl: https://github.com/deads2k
+prurl: https://github.com/kubernetes/kubernetes/pull/98312
+prnumber: 98312
+areas:
+- apiserver
+- code-generation
+- test
+kinds:
+- api-change
+- cleanup
+- deprecation
+sigs:
+- api-machinery
+- auth
+- testing
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

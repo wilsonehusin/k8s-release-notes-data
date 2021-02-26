@@ -1,0 +1,23 @@
+commit: 43ce28b9954c0d0b8b43b02724f12dce795befec
+text: 'kubeadm: avoid detection of the container runtime for commands that do not
+  need it'
+markdown: 'Kubeadm: avoid detection of the container runtime for commands that do
+  not need it ([#97625](https://github.com/kubernetes/kubernetes/pull/97625), [@pacoxu](https://github.com/pacoxu))
+  [SIG Cluster Lifecycle]'
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/97625
+prnumber: 97625
+areas:
+- kubeadm
+kinds:
+- bug
+sigs:
+- cluster-lifecycle
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

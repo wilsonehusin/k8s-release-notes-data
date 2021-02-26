@@ -1,0 +1,26 @@
+commit: f48972e671e5f338d0d6adfe6055aba4534569ad
+text: AWS cloudprovider supports auto-discovering subnets without any kubernetes.io/cluster/<clusterName>
+  tags. It also supports additional service annotation service.beta.kubernetes.io/aws-load-balancer-subnets
+  to manually configure the subnets.
+markdown: AWS cloudprovider supports auto-discovering subnets without any kubernetes.io/cluster/<clusterName>
+  tags. It also supports additional service annotation service.beta.kubernetes.io/aws-load-balancer-subnets
+  to manually configure the subnets. ([#97431](https://github.com/kubernetes/kubernetes/pull/97431),
+  [@kishorj](https://github.com/kishorj)) [SIG Cloud Provider]
+documentation: []
+author: kishorj
+authorurl: https://github.com/kishorj
+prurl: https://github.com/kubernetes/kubernetes/pull/97431
+prnumber: 97431
+areas:
+- cloudprovider
+kinds:
+- bug
+- feature
+sigs:
+- cloud-provider
+feature: true
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

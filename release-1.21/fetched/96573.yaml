@@ -1,0 +1,23 @@
+commit: 49dd01f0489d58ced40fdd7f796f0830bca10dd7
+text: storage related e2e testsuite redesign & cleanup
+markdown: Storage related e2e testsuite redesign & cleanup ([#96573](https://github.com/kubernetes/kubernetes/pull/96573),
+  [@Jiawei0227](https://github.com/Jiawei0227)) [SIG Storage and Testing]
+documentation: []
+author: Jiawei0227
+authorurl: https://github.com/Jiawei0227
+prurl: https://github.com/kubernetes/kubernetes/pull/96573
+prnumber: 96573
+areas:
+- e2e-test-framework
+- test
+kinds:
+- cleanup
+sigs:
+- storage
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

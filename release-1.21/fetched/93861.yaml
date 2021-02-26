@@ -1,0 +1,27 @@
+commit: 7f083d339f9d4e104cc31e671626c74fd3c83611
+text: Add --permit-address-sharing flag to kube-apiserver to listen with SO_REUSEADDR.
+  While allowing to listen on wildcard IPs like 0.0.0.0 and specific IPs in parallel,
+  it avoid waiting for the kernel to release socket in TIME_WAIT state, and hence,
+  considably reducing kube-apiserver restart times under certain conditions.
+markdown: Add --permit-address-sharing flag to kube-apiserver to listen with SO_REUSEADDR.
+  While allowing to listen on wildcard IPs like 0.0.0.0 and specific IPs in parallel,
+  it avoid waiting for the kernel to release socket in TIME_WAIT state, and hence,
+  considably reducing kube-apiserver restart times under certain conditions. ([#93861](https://github.com/kubernetes/kubernetes/pull/93861),
+  [@sttts](https://github.com/sttts)) [SIG API Machinery]
+documentation: []
+author: sttts
+authorurl: https://github.com/sttts
+prurl: https://github.com/kubernetes/kubernetes/pull/93861
+prnumber: 93861
+areas:
+- apiserver
+kinds:
+- feature
+sigs:
+- api-machinery
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

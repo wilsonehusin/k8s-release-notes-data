@@ -1,0 +1,22 @@
+commit: f266f60da9dadf3ee675c52ff388ffe767238666
+text: 'kubeadm: fix bad token placeholder text in "config print *-defaults --help"'
+markdown: 'Kubeadm: fix bad token placeholder text in "config print *-defaults --help"
+  ([#98839](https://github.com/kubernetes/kubernetes/pull/98839), [@Mattias-](https://github.com/Mattias-))
+  [SIG Cluster Lifecycle]'
+documentation: []
+author: Mattias-
+authorurl: https://github.com/Mattias-
+prurl: https://github.com/kubernetes/kubernetes/pull/98839
+prnumber: 98839
+areas:
+- kubeadm
+kinds:
+- bug
+sigs:
+- cluster-lifecycle
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

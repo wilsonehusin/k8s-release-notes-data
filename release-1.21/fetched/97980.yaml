@@ -1,0 +1,26 @@
+commit: e0b2787ee1e066287d2d19c3841f18f07669b47d
+text: Fix the regression with the slow pods termination. Before this fix pods may
+  take an additional time to terminate - up to one minute. Reversing the change that
+  ensured that CNI resources cleaned up when the pod is removed on API server.
+markdown: Fix the regression with the slow pods termination. Before this fix pods
+  may take an additional time to terminate - up to one minute. Reversing the change
+  that ensured that CNI resources cleaned up when the pod is removed on API server.
+  ([#97980](https://github.com/kubernetes/kubernetes/pull/97980), [@SergeyKanzhelev](https://github.com/SergeyKanzhelev))
+  [SIG Node]
+documentation: []
+author: SergeyKanzhelev
+authorurl: https://github.com/SergeyKanzhelev
+prurl: https://github.com/kubernetes/kubernetes/pull/97980
+prnumber: 97980
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

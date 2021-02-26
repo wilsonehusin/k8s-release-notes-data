@@ -1,0 +1,21 @@
+commit: 6b9379eae4bbfc15b03110a56727c5a8012fa7b5
+text: migrate proxy/winkernel/proxier.go logs to structured logging
+markdown: Migrate proxy/winkernel/proxier.go logs to structured logging ([#98001](https://github.com/kubernetes/kubernetes/pull/98001),
+  [@JornShen](https://github.com/JornShen)) [SIG Network and Windows]
+documentation: []
+author: JornShen
+authorurl: https://github.com/JornShen
+prurl: https://github.com/kubernetes/kubernetes/pull/98001
+prnumber: 98001
+areas: []
+kinds:
+- cleanup
+sigs:
+- network
+- windows
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

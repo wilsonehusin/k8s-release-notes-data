@@ -1,0 +1,20 @@
+commit: 4b3d6369dd204c38959d4f508c7a3a3d3d81eb35
+text: NONE
+markdown: NONE ([#98453](https://github.com/kubernetes/kubernetes/pull/98453), [@tanjing2020](https://github.com/tanjing2020))
+  [SIG Scheduling]
+documentation: []
+author: tanjing2020
+authorurl: https://github.com/tanjing2020
+prurl: https://github.com/kubernetes/kubernetes/pull/98453
+prnumber: 98453
+areas: []
+kinds:
+- cleanup
+sigs:
+- scheduling
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: true
+datafields: {}

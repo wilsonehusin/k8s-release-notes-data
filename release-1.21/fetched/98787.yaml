@@ -1,0 +1,31 @@
+commit: c5759ab86d9813269bd61108dec43ef36a993e02
+text: The new `-gce-zones` flag on the `e2e.test` binary instructs tests that check
+  for information about how the cluster interacts with the cloud to limit their queries
+  to the provided zone list. If not specified, the current behavior of asking the
+  cloud provider for all available zones in multi zone clusters is preserved.
+markdown: The new `-gce-zones` flag on the `e2e.test` binary instructs tests that
+  check for information about how the cluster interacts with the cloud to limit their
+  queries to the provided zone list. If not specified, the current behavior of asking
+  the cloud provider for all available zones in multi zone clusters is preserved.
+  ([#98787](https://github.com/kubernetes/kubernetes/pull/98787), [@smarterclayton](https://github.com/smarterclayton))
+  [SIG API Machinery, Cluster Lifecycle and Testing]
+documentation: []
+author: smarterclayton
+authorurl: https://github.com/smarterclayton
+prurl: https://github.com/kubernetes/kubernetes/pull/98787
+prnumber: 98787
+areas:
+- e2e-test-framework
+- test
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- cluster-lifecycle
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

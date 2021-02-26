@@ -1,0 +1,22 @@
+commit: 4fc184f383cd9e4f4a7765b385ed95e807db7661
+text: Fixes connection errors when using `--volume-host-cidr-denylist` or `--volume-host-allow-local-loopback`
+markdown: Fixes connection errors when using `--volume-host-cidr-denylist` or `--volume-host-allow-local-loopback`
+  ([#98436](https://github.com/kubernetes/kubernetes/pull/98436), [@liggitt](https://github.com/liggitt))
+  [SIG Network and Storage]
+documentation: []
+author: liggitt
+authorurl: https://github.com/liggitt
+prurl: https://github.com/kubernetes/kubernetes/pull/98436
+prnumber: 98436
+areas: []
+kinds:
+- bug
+sigs:
+- network
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

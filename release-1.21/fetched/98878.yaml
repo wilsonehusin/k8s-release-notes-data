@@ -1,0 +1,23 @@
+commit: bcfa3a0a36223a24891c7b49ff33dc51bde6ec31
+text: Turn CronJobControllerV2 on by default.
+markdown: Turn CronJobControllerV2 on by default. ([#98878](https://github.com/kubernetes/kubernetes/pull/98878),
+  [@soltysh](https://github.com/soltysh)) [SIG Apps]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-apps/19-Graduate-CronJob-to-Stable
+  type: KEP
+author: soltysh
+authorurl: https://github.com/soltysh
+prurl: https://github.com/kubernetes/kubernetes/pull/98878
+prnumber: 98878
+areas: []
+kinds:
+- feature
+sigs:
+- apps
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

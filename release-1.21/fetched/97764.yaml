@@ -1,0 +1,22 @@
+commit: cff7d7ba0aa11b7455d860e9a30fcb404858411d
+text: kubelet should ignore cgroup driver check on Windows node.
+markdown: Kubelet should ignore cgroup driver check on Windows node. ([#97764](https://github.com/kubernetes/kubernetes/pull/97764),
+  [@pacoxu](https://github.com/pacoxu)) [SIG Node and Windows]
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/97764
+prnumber: 97764
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+- windows
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

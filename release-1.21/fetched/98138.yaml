@@ -1,0 +1,22 @@
+commit: e0bba105cca88c897c60ad80d4aa0a54c984dbb5
+text: migrate staging/src/k8s.io/apiserver/pkg/admission logs to  structured logging
+markdown: Migrate staging/src/k8s.io/apiserver/pkg/admission logs to  structured logging
+  ([#98138](https://github.com/kubernetes/kubernetes/pull/98138), [@lala123912](https://github.com/lala123912))
+  [SIG API Machinery]
+documentation: []
+author: lala123912
+authorurl: https://github.com/lala123912
+prurl: https://github.com/kubernetes/kubernetes/pull/98138
+prnumber: 98138
+areas:
+- apiserver
+kinds:
+- cleanup
+sigs:
+- api-machinery
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

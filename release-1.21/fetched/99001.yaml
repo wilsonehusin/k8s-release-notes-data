@@ -1,0 +1,21 @@
+commit: 731fac3a55b120fd9d4cbddfefe6acf6bba29551
+text: Migrate pkg/kubelet/nodestatus to structured logging
+markdown: Migrate pkg/kubelet/nodestatus to structured logging ([#99001](https://github.com/kubernetes/kubernetes/pull/99001),
+  [@QiWang19](https://github.com/QiWang19)) [SIG Node]
+documentation: []
+author: QiWang19
+authorurl: https://github.com/QiWang19
+prurl: https://github.com/kubernetes/kubernetes/pull/99001
+prnumber: 99001
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

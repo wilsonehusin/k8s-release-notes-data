@@ -1,0 +1,48 @@
+commit: a107769005854608fe8cdfa2e274204d0fdb9240
+text: |-
+  [It] should run through the lifecycle of Pods and PodStatus
+    /go/src/k8s.io/kubernetes/_output/dockerized/go/src/k8s.io/kubernetes/test/e2e/common/pods.go:887
+  ï¿½[1mSTEPï¿½[0m: creating a Pod with a static label
+  ï¿½[1mSTEPï¿½[0m: watching for Pod to be ready
+  Nov 18 13:28:04.312: INFO: observed Pod pod-test in namespace pods-5897 in phase Pending conditions []
+  Nov 18 13:28:04.360: INFO: observed Pod pod-test in namespace pods-5897 in phase Pending conditions [{PodScheduled True 0001-01-01 00:00:00 +0000 UTC 2020-11-18 13:28:04 +0000 UTC  }]
+  Nov 18 13:29:04.265: FAIL: failed to see Pod pod-test in namespace pods-5897 running
+  Unexpected error:
+      <*errors.errorString | 0xc0002781f0>: {
+          s: "timed out waiting for the condition",
+      }
+      timed out waiting for the condition
+  occurred
+markdown: |-
+  [It] should run through the lifecycle of Pods and PodStatus
+      /go/src/k8s.io/kubernetes/_output/dockerized/go/src/k8s.io/kubernetes/test/e2e/common/pods.go:887
+    ï¿½[1mSTEPï¿½[0m: creating a Pod with a static label
+    ï¿½[1mSTEPï¿½[0m: watching for Pod to be ready
+    Nov 18 13:28:04.312: INFO: observed Pod pod-test in namespace pods-5897 in phase Pending conditions []
+    Nov 18 13:28:04.360: INFO: observed Pod pod-test in namespace pods-5897 in phase Pending conditions [{PodScheduled True 0001-01-01 00:00:00 +0000 UTC 2020-11-18 13:28:04 +0000 UTC  }]
+    Nov 18 13:29:04.265: FAIL: failed to see Pod pod-test in namespace pods-5897 running
+    Unexpected error:
+        <*errors.errorString | 0xc0002781f0>: {
+            s: "timed out waiting for the condition",
+        }
+        timed out waiting for the condition
+    occurred ([#96691](https://github.com/kubernetes/kubernetes/pull/96691), [@hh](https://github.com/hh)) [SIG Architecture and Testing]
+documentation: []
+author: hh
+authorurl: https://github.com/hh
+prurl: https://github.com/kubernetes/kubernetes/pull/96691
+prnumber: 96691
+areas:
+- conformance
+- test
+kinds:
+- flake
+sigs:
+- architecture
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: true
+datafields: {}

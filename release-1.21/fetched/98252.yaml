@@ -1,0 +1,24 @@
+commit: 5856883274a52c0d7db0a7f4fa81d55778b2c844
+text: migrate staging/src/k8s.io/apiserver/pkg/audit/policy/reader.go logs to structured
+  logging.
+markdown: Migrate staging/src/k8s.io/apiserver/pkg/audit/policy/reader.go logs to
+  structured logging. ([#98252](https://github.com/kubernetes/kubernetes/pull/98252),
+  [@lala123912](https://github.com/lala123912)) [SIG API Machinery and Auth]
+documentation: []
+author: lala123912
+authorurl: https://github.com/lala123912
+prurl: https://github.com/kubernetes/kubernetes/pull/98252
+prnumber: 98252
+areas:
+- apiserver
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- auth
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,23 @@
+commit: 1209c596129f4326a6c2da49e63841d035a47363
+text: fixing a bug where a failed node may not have the NoExecute taint set correctly
+markdown: Fixing a bug where a failed node may not have the NoExecute taint set correctly
+  ([#96876](https://github.com/kubernetes/kubernetes/pull/96876), [@howieyuen](https://github.com/howieyuen))
+  [SIG Apps and Node]
+documentation: []
+author: howieyuen
+authorurl: https://github.com/howieyuen
+prurl: https://github.com/kubernetes/kubernetes/pull/96876
+prnumber: 96876
+areas:
+- node-lifecycle
+kinds:
+- bug
+sigs:
+- apps
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

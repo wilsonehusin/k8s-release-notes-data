@@ -1,0 +1,23 @@
+commit: a20aeb8eed76d17117ca6086a1192c49d67c393b
+text: AcceleratorStats will be available in the Summary API of kubelet when cri_stats_provider
+  is used.
+markdown: AcceleratorStats will be available in the Summary API of kubelet when cri_stats_provider
+  is used. ([#96873](https://github.com/kubernetes/kubernetes/pull/96873), [@ruiwen-zhao](https://github.com/ruiwen-zhao))
+  [SIG Node]
+documentation: []
+author: ruiwen-zhao
+authorurl: https://github.com/ruiwen-zhao
+prurl: https://github.com/kubernetes/kubernetes/pull/96873
+prnumber: 96873
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

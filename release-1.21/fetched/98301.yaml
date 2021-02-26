@@ -1,0 +1,21 @@
+commit: 25aa6cf0c58067656dd6e4c1e2c28efb259ab08c
+text: add bash-completion for comma separated list on `kubectl get`
+markdown: Add bash-completion for comma separated list on `kubectl get` ([#98301](https://github.com/kubernetes/kubernetes/pull/98301),
+  [@phil9909](https://github.com/phil9909)) [SIG CLI]
+documentation: []
+author: phil9909
+authorurl: https://github.com/phil9909
+prurl: https://github.com/kubernetes/kubernetes/pull/98301
+prnumber: 98301
+areas:
+- kubectl
+kinds:
+- feature
+sigs:
+- cli
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

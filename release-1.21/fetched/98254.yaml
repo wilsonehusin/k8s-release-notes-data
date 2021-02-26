@@ -1,0 +1,20 @@
+commit: 356ee4c83a83f63e747f22ee41c42aaac9cea932
+text: Fix the description of command line flags that can override --config
+markdown: Fix the description of command line flags that can override --config ([#98254](https://github.com/kubernetes/kubernetes/pull/98254),
+  [@changshuchao](https://github.com/changshuchao)) [SIG Scheduling]
+documentation: []
+author: changshuchao
+authorurl: https://github.com/changshuchao
+prurl: https://github.com/kubernetes/kubernetes/pull/98254
+prnumber: 98254
+areas: []
+kinds:
+- cleanup
+sigs:
+- scheduling
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

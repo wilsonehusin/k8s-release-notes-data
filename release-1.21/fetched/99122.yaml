@@ -1,0 +1,26 @@
+commit: 0f140bf1eeaf63c155f5eba1db8db9b5d52d5467
+text: When dynamically provisioning Azure File volumes for a premium account, the
+  requested size will be set to 100GB if the request is initially lower than this
+  value to accommodate Azure File requirements.
+markdown: When dynamically provisioning Azure File volumes for a premium account,
+  the requested size will be set to 100GB if the request is initially lower than this
+  value to accommodate Azure File requirements. ([#99122](https://github.com/kubernetes/kubernetes/pull/99122),
+  [@huffmanca](https://github.com/huffmanca)) [SIG Cloud Provider and Storage]
+documentation: []
+author: huffmanca
+authorurl: https://github.com/huffmanca
+prurl: https://github.com/kubernetes/kubernetes/pull/99122
+prnumber: 99122
+areas:
+- provider/azure
+kinds:
+- bug
+sigs:
+- cloud-provider
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,23 @@
+commit: aa5cbcda424b4880ddc4ac0a7f4b37e366261c6e
+text: The deprecated feature gates `CSIDriverRegistry`, `BlockVolume` and `CSIBlockVolume`
+  are now unconditionally enabled and can no longer be specified in component invocations.
+markdown: The deprecated feature gates `CSIDriverRegistry`, `BlockVolume` and `CSIBlockVolume`
+  are now unconditionally enabled and can no longer be specified in component invocations.
+  ([#98021](https://github.com/kubernetes/kubernetes/pull/98021), [@gavinfish](https://github.com/gavinfish))
+  [SIG Storage]
+documentation: []
+author: gavinfish
+authorurl: https://github.com/gavinfish
+prurl: https://github.com/kubernetes/kubernetes/pull/98021
+prnumber: 98021
+areas: []
+kinds:
+- cleanup
+sigs:
+- storage
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

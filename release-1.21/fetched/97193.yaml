@@ -1,0 +1,25 @@
+commit: b37e9a440ea30336733793c4b9f97b87ac64b097
+text: |-
+  go test -race -c ./pkg/kubelet/cm/devicemanager
+  stress ./devicemanager.test -test.run TestDevicePluginReRegistrationProbeMode
+markdown: |-
+  Go test -race -c ./pkg/kubelet/cm/devicemanager
+    stress ./devicemanager.test -test.run TestDevicePluginReRegistrationProbeMode ([#97193](https://github.com/kubernetes/kubernetes/pull/97193), [@JornShen](https://github.com/JornShen)) [SIG Node]
+documentation: []
+author: JornShen
+authorurl: https://github.com/JornShen
+prurl: https://github.com/kubernetes/kubernetes/pull/97193
+prnumber: 97193
+areas:
+- kubelet
+kinds:
+- bug
+- flake
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: true
+datafields: {}

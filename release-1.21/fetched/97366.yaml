@@ -1,0 +1,22 @@
+commit: b749a3a421652644bb170b57375ef0cf46c0fa3f
+text: Fix nil VMSS name when setting service to auto mode
+markdown: Fix nil VMSS name when setting service to auto mode ([#97366](https://github.com/kubernetes/kubernetes/pull/97366),
+  [@nilo19](https://github.com/nilo19)) [SIG Cloud Provider]
+documentation: []
+author: nilo19
+authorurl: https://github.com/nilo19
+prurl: https://github.com/kubernetes/kubernetes/pull/97366
+prnumber: 97366
+areas:
+- cloudprovider
+- provider/azure
+kinds:
+- bug
+sigs:
+- cloud-provider
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

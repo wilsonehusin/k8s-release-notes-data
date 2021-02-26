@@ -1,0 +1,22 @@
+commit: d9a26fb69bcb194c1b56a93eca0735a8fdf3bd63
+text: 'Performance regresssion #97685 has been fixed.'
+markdown: 'Performance regresssion #97685 has been fixed. ([#97860](https://github.com/kubernetes/kubernetes/pull/97860),
+  [@MikeSpreitzer](https://github.com/MikeSpreitzer)) [SIG API Machinery]'
+documentation: []
+author: MikeSpreitzer
+authorurl: https://github.com/MikeSpreitzer
+prurl: https://github.com/kubernetes/kubernetes/pull/97860
+prnumber: 97860
+areas:
+- apiserver
+kinds:
+- bug
+- regression
+sigs:
+- api-machinery
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

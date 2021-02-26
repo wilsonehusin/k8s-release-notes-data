@@ -1,0 +1,34 @@
+commit: 2d153fe04ea10ea88df01584c80db569fdf3acb5
+text: 'Upgrades `IPv6Dualstack` to `Beta` and turns it on by default. Clusters new
+  and existing will not be affected until user starting adding secondary pod and service
+  cidrs cli flags as described here: https://github.com/kubernetes/enhancements/tree/master/keps/sig-network/563-dual-stack'
+markdown: 'Upgrades `IPv6Dualstack` to `Beta` and turns it on by default. Clusters
+  new and existing will not be affected until user starting adding secondary pod and
+  service cidrs cli flags as described here: https://github.com/kubernetes/enhancements/tree/master/keps/sig-network/563-dual-stack
+  ([#98969](https://github.com/kubernetes/kubernetes/pull/98969), [@khenidak](https://github.com/khenidak))
+  [SIG API Machinery, Apps, Cloud Provider, Network and Node]'
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-network/563-dual-stack
+  type: KEP
+author: khenidak
+authorurl: https://github.com/khenidak
+prurl: https://github.com/kubernetes/kubernetes/pull/98969
+prnumber: 98969
+areas:
+- apiserver
+- kubelet
+kinds:
+- feature
+sigs:
+- api-machinery
+- apps
+- cloud-provider
+- network
+- node
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

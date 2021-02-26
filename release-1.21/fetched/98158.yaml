@@ -1,0 +1,22 @@
+commit: ab21bdba898586e0e775637455f9837031ea89c2
+text: KUBECTL_EXTERNAL_DIFF now accepts equal sign for additional parameters.
+markdown: KUBECTL_EXTERNAL_DIFF now accepts equal sign for additional parameters.
+  ([#98158](https://github.com/kubernetes/kubernetes/pull/98158), [@dougsland](https://github.com/dougsland))
+  [SIG CLI]
+documentation: []
+author: dougsland
+authorurl: https://github.com/dougsland
+prurl: https://github.com/kubernetes/kubernetes/pull/98158
+prnumber: 98158
+areas:
+- kubectl
+kinds:
+- bug
+sigs:
+- cli
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

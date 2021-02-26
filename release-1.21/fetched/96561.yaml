@@ -1,0 +1,28 @@
+commit: 07bd985724efcb8e2152541f59a6a9bf398fc8b3
+text: The `CSINodeInfo` feature gate that is GA since v1.17 is unconditionally enabled,
+  and can no longer be specified via the `--feature-gates` argument.
+markdown: The `CSINodeInfo` feature gate that is GA since v1.17 is unconditionally
+  enabled, and can no longer be specified via the `--feature-gates` argument. ([#96561](https://github.com/kubernetes/kubernetes/pull/96561),
+  [@ialidzhikov](https://github.com/ialidzhikov)) [SIG Apps, Auth, Scheduling, Storage
+  and Testing]
+documentation: []
+author: ialidzhikov
+authorurl: https://github.com/ialidzhikov
+prurl: https://github.com/kubernetes/kubernetes/pull/96561
+prnumber: 96561
+areas:
+- test
+kinds:
+- cleanup
+sigs:
+- apps
+- auth
+- scheduling
+- storage
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

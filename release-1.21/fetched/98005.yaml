@@ -1,0 +1,24 @@
+commit: 9ec1e23e41a84fdda4b88678d20c489cf381fa4f
+text: |-
+  Sync node status during kubelet node shutdown.
+  Adds an pod admission handler that rejects new pods when the node is in progress of shutting down.
+markdown: |-
+  Sync node status during kubelet node shutdown.
+    Adds an pod admission handler that rejects new pods when the node is in progress of shutting down. ([#98005](https://github.com/kubernetes/kubernetes/pull/98005), [@wzshiming](https://github.com/wzshiming)) [SIG Node]
+documentation: []
+author: wzshiming
+authorurl: https://github.com/wzshiming
+prurl: https://github.com/kubernetes/kubernetes/pull/98005
+prnumber: 98005
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

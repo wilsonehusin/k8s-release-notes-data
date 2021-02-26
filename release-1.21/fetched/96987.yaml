@@ -1,0 +1,32 @@
+commit: 4f1dd5d2fbe42f39a841016796c5646711946ad1
+text: The `batch/v2alpha1` CronJob type definitions and clients are deprecated and
+  removed.
+markdown: The `batch/v2alpha1` CronJob type definitions and clients are deprecated
+  and removed. ([#96987](https://github.com/kubernetes/kubernetes/pull/96987), [@soltysh](https://github.com/soltysh))
+  [SIG API Machinery, Apps, CLI and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-apps/19-Graduate-CronJob-to-Stable
+  type: KEP
+author: soltysh
+authorurl: https://github.com/soltysh
+prurl: https://github.com/kubernetes/kubernetes/pull/96987
+prnumber: 96987
+areas:
+- kubectl
+- test
+kinds:
+- api-change
+- cleanup
+- deprecation
+sigs:
+- api-machinery
+- apps
+- cli
+- testing
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

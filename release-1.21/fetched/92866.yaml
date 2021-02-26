@@ -1,0 +1,28 @@
+commit: 8096513aca94b3e1f7e05defadf1659a15bc623e
+text: Scheduler extender filter interface now can report unresolvable failed nodes
+  in the new field `FailedAndUnresolvableNodes` of  `ExtenderFilterResult` struct.
+  Nodes in this map will be skipped in the preemption phase.
+markdown: Scheduler extender filter interface now can report unresolvable failed nodes
+  in the new field `FailedAndUnresolvableNodes` of  `ExtenderFilterResult` struct.
+  Nodes in this map will be skipped in the preemption phase. ([#92866](https://github.com/kubernetes/kubernetes/pull/92866),
+  [@cofyc](https://github.com/cofyc)) [SIG Scheduling]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/pull/1850
+  type: KEP
+author: cofyc
+authorurl: https://github.com/cofyc
+prurl: https://github.com/kubernetes/kubernetes/pull/92866
+prnumber: 92866
+areas: []
+kinds:
+- api-change
+- feature
+sigs:
+- scheduling
+feature: true
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

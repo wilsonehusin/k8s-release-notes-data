@@ -1,0 +1,26 @@
+commit: c884bf1648abccc3414f745e2f932368c5e3d5e6
+text: 'kubeadm: Some text in the `kubeadm upgrade plan` output has changed. If you
+  have scripts or other automation that parses this output, please review these changes
+  and update your scripts to account for the new output.'
+markdown: 'Kubeadm: Some text in the `kubeadm upgrade plan` output has changed. If
+  you have scripts or other automation that parses this output, please review these
+  changes and update your scripts to account for the new output. ([#98728](https://github.com/kubernetes/kubernetes/pull/98728),
+  [@stmcginnis](https://github.com/stmcginnis)) [SIG Cluster Lifecycle]'
+documentation: []
+author: stmcginnis
+authorurl: https://github.com/stmcginnis
+prurl: https://github.com/kubernetes/kubernetes/pull/98728
+prnumber: 98728
+areas:
+- kubeadm
+kinds:
+- bug
+- cleanup
+sigs:
+- cluster-lifecycle
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

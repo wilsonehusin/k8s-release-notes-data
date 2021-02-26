@@ -1,0 +1,34 @@
+commit: 0300aa712e378373261effcfb4a7895e5356c43e
+text: "`ServiceNodeExclusion`, `NodeDisruptionExclusion` and `LegacyNodeRoleBehavior`(locked
+  to false) features have been promoted to GA. \nTo prevent control plane nodes from
+  being added to load balancers automatically, upgrade users need to add \"node.kubernetes.io/exclude-from-external-load-balancers\"
+  \ label to control plane nodes."
+markdown: "`ServiceNodeExclusion`, `NodeDisruptionExclusion` and `LegacyNodeRoleBehavior`(locked
+  to false) features have been promoted to GA. \n  To prevent control plane nodes
+  from being added to load balancers automatically, upgrade users need to add \"node.kubernetes.io/exclude-from-external-load-balancers\"
+  \ label to control plane nodes. ([#97543](https://github.com/kubernetes/kubernetes/pull/97543),
+  [@pacoxu](https://github.com/pacoxu)) [SIG API Machinery, Apps, Cloud Provider and
+  Network]"
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-architecture/1143-node-role-labels
+  type: KEP
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/97543
+prnumber: 97543
+areas:
+- cloudprovider
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- apps
+- cloud-provider
+- network
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

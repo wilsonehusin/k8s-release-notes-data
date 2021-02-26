@@ -1,0 +1,22 @@
+commit: 42d19f9641270b06a68f805de7c5fc9fc2097e4f
+text: Delete deprecated mixed procotol annotation
+markdown: Delete deprecated mixed procotol annotation ([#97096](https://github.com/kubernetes/kubernetes/pull/97096),
+  [@nilo19](https://github.com/nilo19)) [SIG Cloud Provider]
+documentation: []
+author: nilo19
+authorurl: https://github.com/nilo19
+prurl: https://github.com/kubernetes/kubernetes/pull/97096
+prnumber: 97096
+areas:
+- cloudprovider
+- provider/azure
+kinds:
+- cleanup
+sigs:
+- cloud-provider
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

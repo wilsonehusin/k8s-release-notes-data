@@ -1,0 +1,26 @@
+commit: 51919050fe8431591e5d36fdbf261bca401b4658
+text: Metrics can now be disabled explicitly via a command line flag (i.e. '--disabled-metrics=bad_metric1,bad_metric2')
+markdown: Metrics can now be disabled explicitly via a command line flag (i.e. '--disabled-metrics=bad_metric1,bad_metric2')
+  ([#99217](https://github.com/kubernetes/kubernetes/pull/99217), [@logicalhan](https://github.com/logicalhan))
+  [SIG API Machinery, Cluster Lifecycle and Instrumentation]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-instrumentation/1209-metrics-stability
+  type: KEP
+author: logicalhan
+authorurl: https://github.com/logicalhan
+prurl: https://github.com/kubernetes/kubernetes/pull/99217
+prnumber: 99217
+areas: []
+kinds:
+- feature
+sigs:
+- api-machinery
+- cluster-lifecycle
+- instrumentation
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

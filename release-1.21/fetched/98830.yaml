@@ -1,0 +1,24 @@
+commit: 254106c42c6b91669d92a9258ee4dc450f67dfd7
+text: Escape the special characters like `[`, `]` and ` ` that exist in vsphere windows
+  path
+markdown: Escape the special characters like `[`, `]` and ` ` that exist in vsphere
+  windows path ([#98830](https://github.com/kubernetes/kubernetes/pull/98830), [@liyanhui1228](https://github.com/liyanhui1228))
+  [SIG Storage and Windows]
+documentation: []
+author: liyanhui1228
+authorurl: https://github.com/liyanhui1228
+prurl: https://github.com/kubernetes/kubernetes/pull/98830
+prnumber: 98830
+areas: []
+kinds:
+- bug
+- failing-test
+sigs:
+- storage
+- windows
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

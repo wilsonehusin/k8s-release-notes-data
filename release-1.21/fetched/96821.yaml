@@ -1,0 +1,23 @@
+commit: 9720013d926cefb2ce5e5584f993387a2b12ce60
+text: Fix CSI-migrated inline EBS volumes failing to mount if their volumeID is prefixed
+  by aws://
+markdown: Fix CSI-migrated inline EBS volumes failing to mount if their volumeID is
+  prefixed by aws:// ([#96821](https://github.com/kubernetes/kubernetes/pull/96821),
+  [@wongma7](https://github.com/wongma7)) [SIG Storage]
+documentation: []
+author: wongma7
+authorurl: https://github.com/wongma7
+prurl: https://github.com/kubernetes/kubernetes/pull/96821
+prnumber: 96821
+areas:
+- provider/aws
+kinds:
+- bug
+sigs:
+- storage
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

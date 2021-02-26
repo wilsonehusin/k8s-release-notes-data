@@ -1,0 +1,23 @@
+commit: d475352bcbb82a45c01ad5557e81ecfde0b4f583
+text: 'kubeadm: during "init" and "join" perform preflight validation on the host
+  / node name and throw warnings if a name is not compliant'
+markdown: 'Kubeadm: during "init" and "join" perform preflight validation on the host
+  / node name and throw warnings if a name is not compliant ([#99194](https://github.com/kubernetes/kubernetes/pull/99194),
+  [@pacoxu](https://github.com/pacoxu)) [SIG Cluster Lifecycle]'
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/99194
+prnumber: 99194
+areas:
+- kubeadm
+kinds:
+- feature
+sigs:
+- cluster-lifecycle
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

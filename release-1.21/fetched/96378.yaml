@@ -1,0 +1,25 @@
+commit: d664958e55c795eeaa94b6d2a9597ce6d5a85270
+text: 'kubeadm: amend the node kernel validation to treat CGROUP_PIDS, FAIR_GROUP_SCHED
+  as required and CFS_BANDWIDTH, CGROUP_HUGETLB as optional'
+markdown: 'Kubeadm: amend the node kernel validation to treat CGROUP_PIDS, FAIR_GROUP_SCHED
+  as required and CFS_BANDWIDTH, CGROUP_HUGETLB as optional ([#96378](https://github.com/kubernetes/kubernetes/pull/96378),
+  [@neolit123](https://github.com/neolit123)) [SIG Cluster Lifecycle and Node]'
+documentation: []
+author: neolit123
+authorurl: https://github.com/neolit123
+prurl: https://github.com/kubernetes/kubernetes/pull/96378
+prnumber: 96378
+areas:
+- code-organization
+- dependency
+kinds:
+- feature
+sigs:
+- cluster-lifecycle
+- node
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

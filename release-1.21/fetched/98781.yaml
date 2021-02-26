@@ -1,0 +1,28 @@
+commit: 26744ac58dd31ceb342b54a2a9d71d66aa95811d
+text: The e2e suite can be instructed not to wait for pods in kube-system to be ready
+  or for all nodes to be ready by passing `--allowed-not-ready-nodes=-1` when invoking
+  the e2e.test program. This allows callers to run subsets of the e2e suite in scenarios
+  other than perfectly healthy clusters.
+markdown: The e2e suite can be instructed not to wait for pods in kube-system to be
+  ready or for all nodes to be ready by passing `--allowed-not-ready-nodes=-1` when
+  invoking the e2e.test program. This allows callers to run subsets of the e2e suite
+  in scenarios other than perfectly healthy clusters. ([#98781](https://github.com/kubernetes/kubernetes/pull/98781),
+  [@smarterclayton](https://github.com/smarterclayton)) [SIG Testing]
+documentation: []
+author: smarterclayton
+authorurl: https://github.com/smarterclayton
+prurl: https://github.com/kubernetes/kubernetes/pull/98781
+prnumber: 98781
+areas:
+- e2e-test-framework
+- test
+kinds:
+- cleanup
+sigs:
+- testing
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,22 @@
+commit: 6fff9581c2770ea31bb14a394d7cb81c992af801
+text: The Kubernetes pause image manifest list now contains an image for Windows Server
+  20H2.
+markdown: The Kubernetes pause image manifest list now contains an image for Windows
+  Server 20H2. ([#97322](https://github.com/kubernetes/kubernetes/pull/97322), [@claudiubelu](https://github.com/claudiubelu))
+  [SIG Windows]
+documentation: []
+author: claudiubelu
+authorurl: https://github.com/claudiubelu
+prurl: https://github.com/kubernetes/kubernetes/pull/97322
+prnumber: 97322
+areas: []
+kinds:
+- feature
+sigs:
+- windows
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

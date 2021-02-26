@@ -1,0 +1,21 @@
+commit: b6e4c1c71a9af6bb459361244e10e62285c04db4
+text: Added support for installing arm64 node artifacts.
+markdown: Added support for installing arm64 node artifacts. ([#99242](https://github.com/kubernetes/kubernetes/pull/99242),
+  [@liu-cong](https://github.com/liu-cong)) [SIG Cloud Provider]
+documentation: []
+author: liu-cong
+authorurl: https://github.com/liu-cong
+prurl: https://github.com/kubernetes/kubernetes/pull/99242
+prnumber: 99242
+areas:
+- provider/gcp
+kinds:
+- feature
+sigs:
+- cloud-provider
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}
