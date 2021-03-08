@@ -1,6 +1,6 @@
 commit: b7c82bb83c1b3933b99fbc5fdcffa59fd6441617
-text: Adds support for portRange / EndPort in Network Policy
-markdown: Adds support for portRange / EndPort in Network Policy ([#97058](https://github.com/kubernetes/kubernetes/pull/97058),
+text: Adds support for endPort field in NetworkPolicy
+markdown: Adds support for endPort field in NetworkPolicy ([#97058](https://github.com/kubernetes/kubernetes/pull/97058),
   [@rikatz](https://github.com/rikatz)) [SIG Apps and Network]
 documentation: []
 author: rikatz
