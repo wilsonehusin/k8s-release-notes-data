@@ -1,0 +1,26 @@
+commit: eb4dafb7f1e059a8a4eaf008937afcd4f12deaea
+text: Graduate CRIContainerLogRotation feature gate to GA.
+markdown: Graduate CRIContainerLogRotation feature gate to GA. ([#99651](https://github.com/kubernetes/kubernetes/pull/99651),
+  [@umohnani8](https://github.com/umohnani8)) [SIG Node and Testing]
+documentation:
+- description: KEP
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/2411-cri-container-log-rotation
+  type: KEP
+author: umohnani8
+authorurl: https://github.com/umohnani8
+prurl: https://github.com/kubernetes/kubernetes/pull/99651
+prnumber: 99651
+areas:
+- kubelet
+- test
+kinds:
+- feature
+sigs:
+- node
+- testing
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,21 @@
+commit: 4e95e1df04a1aaf0ece5a3df947b49165ddd860c
+text: Limit the quest value of hugepage to integer multiple of page size.
+markdown: Limit the quest value of hugepage to integer multiple of page size. ([#98515](https://github.com/kubernetes/kubernetes/pull/98515),
+  [@lala123912](https://github.com/lala123912)) [SIG Apps]
+documentation: []
+author: lala123912
+authorurl: https://github.com/lala123912
+prurl: https://github.com/kubernetes/kubernetes/pull/98515
+prnumber: 98515
+areas: []
+kinds:
+- api-change
+- bug
+sigs:
+- apps
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

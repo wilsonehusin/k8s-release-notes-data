@@ -1,0 +1,27 @@
+commit: 449e2f1777351889b5b958154d1fe5d9bb36b411
+text: |-
+  Package pkg/kubelet/server migrated to structured logging
+  Exit code changed from 255 to 1
+markdown: |-
+  Package pkg/kubelet/server migrated to structured logging
+    Exit code changed from 255 to 1 ([#99838](https://github.com/kubernetes/kubernetes/pull/99838), [@adisky](https://github.com/adisky)) [SIG Node]
+documentation:
+- description: '[KEP]: <link> KEP'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-instrumentation/1602-structured-logging
+  type: KEP
+author: adisky
+authorurl: https://github.com/adisky
+prurl: https://github.com/kubernetes/kubernetes/pull/99838
+prnumber: 99838
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

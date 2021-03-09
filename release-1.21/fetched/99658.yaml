@@ -1,0 +1,20 @@
+commit: f25f071af1847d7fceedc96f57fb0a6ddd4df497
+text: featuregate AllowInsecureBackendProxy is promoted to GA
+markdown: Featuregate AllowInsecureBackendProxy is promoted to GA ([#99658](https://github.com/kubernetes/kubernetes/pull/99658),
+  [@deads2k](https://github.com/deads2k)) [SIG API Machinery]
+documentation: []
+author: deads2k
+authorurl: https://github.com/deads2k
+prurl: https://github.com/kubernetes/kubernetes/pull/99658
+prnumber: 99658
+areas: []
+kinds:
+- cleanup
+sigs:
+- api-machinery
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

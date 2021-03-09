@@ -1,0 +1,25 @@
+commit: a6a66c359488d2f933ccdc3fcb6a57f5fb05b567
+text: |-
+  Migrate `pkg/kubelet/(dockershim, network)` to structured logging
+  Exit code changed from 255 to 1
+markdown: |-
+  Migrate `pkg/kubelet/(dockershim, network)` to structured logging
+    Exit code changed from 255 to 1 ([#98939](https://github.com/kubernetes/kubernetes/pull/98939), [@yangjunmyfm192085](https://github.com/yangjunmyfm192085)) [SIG Network and Node]
+documentation: []
+author: yangjunmyfm192085
+authorurl: https://github.com/yangjunmyfm192085
+prurl: https://github.com/kubernetes/kubernetes/pull/98939
+prnumber: 98939
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- network
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

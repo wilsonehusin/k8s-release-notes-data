@@ -1,0 +1,21 @@
+commit: 413ff6751bec6a42d7fd946f544a5bd924786f67
+text: Fix cgroup handling for systemd with cgroup v2
+markdown: Fix cgroup handling for systemd with cgroup v2 ([#98365](https://github.com/kubernetes/kubernetes/pull/98365),
+  [@odinuge](https://github.com/odinuge)) [SIG Node]
+documentation: []
+author: odinuge
+authorurl: https://github.com/odinuge
+prurl: https://github.com/kubernetes/kubernetes/pull/98365
+prnumber: 98365
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,26 @@
+commit: 9a1b5bb255aead15b8a66ab735c8616a23e0ab05
+text: Migrate pkg/kubelet/token to structured logging
+markdown: Migrate pkg/kubelet/token to structured logging ([#99264](https://github.com/kubernetes/kubernetes/pull/99264),
+  [@palnabarun](https://github.com/palnabarun)) [SIG Auth, Instrumentation and Node]
+documentation:
+- description: ""
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-instrumentation/1602-structured-logging
+  type: KEP
+author: palnabarun
+authorurl: https://github.com/palnabarun
+prurl: https://github.com/kubernetes/kubernetes/pull/99264
+prnumber: 99264
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- auth
+- instrumentation
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

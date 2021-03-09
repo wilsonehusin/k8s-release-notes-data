@@ -1,0 +1,23 @@
+commit: b0ba6c0b76c5dad63bb09b7f02020001d37507c0
+text: 'kubeadm: skip validating pod subnet against node-cidr-mask when allocate-node-cidrs
+  is set to be false'
+markdown: 'Kubeadm: skip validating pod subnet against node-cidr-mask when allocate-node-cidrs
+  is set to be false ([#98984](https://github.com/kubernetes/kubernetes/pull/98984),
+  [@SataQiu](https://github.com/SataQiu)) [SIG Cluster Lifecycle]'
+documentation: []
+author: SataQiu
+authorurl: https://github.com/SataQiu
+prurl: https://github.com/kubernetes/kubernetes/pull/98984
+prnumber: 98984
+areas:
+- kubeadm
+kinds:
+- bug
+sigs:
+- cluster-lifecycle
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,22 @@
+commit: bce5d7a0158444080ed95aae6a5684ce4dd9444b
+text: Fix --ignore-errors does not take effect if multiple logs are printed and unfollowed
+markdown: Fix --ignore-errors does not take effect if multiple logs are printed and
+  unfollowed ([#97686](https://github.com/kubernetes/kubernetes/pull/97686), [@wzshiming](https://github.com/wzshiming))
+  [SIG CLI]
+documentation: []
+author: wzshiming
+authorurl: https://github.com/wzshiming
+prurl: https://github.com/kubernetes/kubernetes/pull/97686
+prnumber: 97686
+areas:
+- kubectl
+kinds:
+- bug
+sigs:
+- cli
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

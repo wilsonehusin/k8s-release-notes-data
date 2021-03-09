@@ -1,0 +1,36 @@
+commit: 504b86ced771d44dccbd305bab30d4ba2ee4615e
+text: 'kubeadm: during "init" an empty cgroupDriver value in the KubeletConfiguration
+  is now always set to "systemd" unless the user is explicit about it. This requires
+  existing machine setups to configure the container runtime to use the "systemd"
+  driver. Documentation on this topic can be found here: https://kubernetes.io/docs/setup/production-environment/container-runtimes/.
+  When upgrading existing clusters / nodes using "kubeadm upgrade" the old cgroupDriver
+  value is preserved, but in 1.22 this change will also apply to "upgrade". For more
+  information on migrating to the "systemd" driver or remaining on the "cgroupfs"
+  driver see: https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/configure-cgroup-driver/.'
+markdown: 'Kubeadm: during "init" an empty cgroupDriver value in the KubeletConfiguration
+  is now always set to "systemd" unless the user is explicit about it. This requires
+  existing machine setups to configure the container runtime to use the "systemd"
+  driver. Documentation on this topic can be found here: https://kubernetes.io/docs/setup/production-environment/container-runtimes/.
+  When upgrading existing clusters / nodes using "kubeadm upgrade" the old cgroupDriver
+  value is preserved, but in 1.22 this change will also apply to "upgrade". For more
+  information on migrating to the "systemd" driver or remaining on the "cgroupfs"
+  driver see: https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/configure-cgroup-driver/.
+  ([#99471](https://github.com/kubernetes/kubernetes/pull/99471), [@neolit123](https://github.com/neolit123))
+  [SIG Cluster Lifecycle]'
+documentation: []
+author: neolit123
+authorurl: https://github.com/neolit123
+prurl: https://github.com/kubernetes/kubernetes/pull/99471
+prnumber: 99471
+areas:
+- kubeadm
+kinds:
+- feature
+sigs:
+- cluster-lifecycle
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

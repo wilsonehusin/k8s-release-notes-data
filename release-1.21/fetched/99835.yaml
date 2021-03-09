@@ -1,0 +1,25 @@
+commit: 027d9e6c25a1776bbda78aefab1c39102ac0815d
+text: '`VolumeBindingArgs` now allow `BindTimeoutSeconds` to be set as zero, while
+  the value zero indicates no waiting for the checking of volume binding operation.'
+markdown: '`VolumeBindingArgs` now allow `BindTimeoutSeconds` to be set as zero, while
+  the value zero indicates no waiting for the checking of volume binding operation.
+  ([#99835](https://github.com/kubernetes/kubernetes/pull/99835), [@chendave](https://github.com/chendave))
+  [SIG Scheduling and Storage]'
+documentation: []
+author: chendave
+authorurl: https://github.com/chendave
+prurl: https://github.com/kubernetes/kubernetes/pull/99835
+prnumber: 99835
+areas: []
+kinds:
+- bug
+- cleanup
+sigs:
+- scheduling
+- storage
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

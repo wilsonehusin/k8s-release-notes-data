@@ -1,0 +1,26 @@
+commit: a6bfc7d7a9640bf5b423dc6139b75181c984837a
+text: 'kubeadm: the deprecated kube-dns is no longer supported as an option. If "ClusterConfiguration.dns.type"
+  is set to "kube-dns" kubeadm will now throw an error.'
+markdown: 'Kubeadm: the deprecated kube-dns is no longer supported as an option. If
+  "ClusterConfiguration.dns.type" is set to "kube-dns" kubeadm will now throw an error.
+  ([#99646](https://github.com/kubernetes/kubernetes/pull/99646), [@rajansandeep](https://github.com/rajansandeep))
+  [SIG Cluster Lifecycle]'
+documentation: []
+author: rajansandeep
+authorurl: https://github.com/rajansandeep
+prurl: https://github.com/kubernetes/kubernetes/pull/99646
+prnumber: 99646
+areas:
+- dependency
+- kubeadm
+kinds:
+- cleanup
+- deprecation
+sigs:
+- cluster-lifecycle
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

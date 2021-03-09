@@ -1,0 +1,23 @@
+commit: 1c6335d668cea44a611dfdbcf5cc43c8ac5ced39
+text: Fixed bug that caused cAdvisor to incorrectly detect single-socket multi-NUMA
+  topology.
+markdown: Fixed bug that caused cAdvisor to incorrectly detect single-socket multi-NUMA
+  topology. ([#99315](https://github.com/kubernetes/kubernetes/pull/99315), [@iwankgb](https://github.com/iwankgb))
+  [SIG Node]
+documentation: []
+author: iwankgb
+authorurl: https://github.com/iwankgb
+prurl: https://github.com/kubernetes/kubernetes/pull/99315
+prnumber: 99315
+areas:
+- dependency
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

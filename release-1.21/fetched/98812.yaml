@@ -1,0 +1,30 @@
+commit: afb1ee3c9a4ee265412248d6135c466ca02a929a
+text: 'Support for Indexed Job: a Job that is considered completed when Pods associated
+  to indexes from 0 to (.spec.completions-1) have succeeded.'
+markdown: 'Support for Indexed Job: a Job that is considered completed when Pods associated
+  to indexes from 0 to (.spec.completions-1) have succeeded. ([#98812](https://github.com/kubernetes/kubernetes/pull/98812),
+  [@alculquicondor](https://github.com/alculquicondor)) [SIG Apps and CLI]'
+documentation:
+- description: '[Usage]'
+  url: https://kubernetes.io/docs/concepts/workloads/controllers/job/#indexed-job
+  type: official
+author: alculquicondor
+authorurl: https://github.com/alculquicondor
+prurl: https://github.com/kubernetes/kubernetes/pull/98812
+prnumber: 98812
+areas:
+- batch
+- kubectl
+- workload-api/job
+kinds:
+- api-change
+- feature
+sigs:
+- apps
+- cli
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

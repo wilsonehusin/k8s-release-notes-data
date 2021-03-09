@@ -1,0 +1,27 @@
+commit: c94ce8c5079e00fb11ca6c33170c97167570bdfa
+text: Add a default metadata name labels for selecting any namespace by its name.
+markdown: Add a default metadata name labels for selecting any namespace by its name.
+  ([#96968](https://github.com/kubernetes/kubernetes/pull/96968), [@jayunit100](https://github.com/jayunit100))
+  [SIG API Machinery, Apps, Cloud Provider, Storage and Testing]
+documentation: []
+author: jayunit100
+authorurl: https://github.com/jayunit100
+prurl: https://github.com/kubernetes/kubernetes/pull/96968
+prnumber: 96968
+areas:
+- provider/gcp
+- test
+kinds:
+- api-change
+sigs:
+- api-machinery
+- apps
+- cloud-provider
+- storage
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

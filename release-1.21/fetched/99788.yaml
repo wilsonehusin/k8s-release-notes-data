@@ -1,0 +1,34 @@
+commit: ffa4e3414ef53a2e64fade41ad7f72866db090cb
+text: apiserver_request_total is promoted to stable status and no longer has a content-type
+  dimensions, so any alerts/charts which presume the existence of this will fail.
+  This is however, unlikely to be the case since it was effectively an unbounded dimension
+  in the first place.
+markdown: Apiserver_request_total is promoted to stable status and no longer has a
+  content-type dimensions, so any alerts/charts which presume the existence of this
+  will fail. This is however, unlikely to be the case since it was effectively an
+  unbounded dimension in the first place. ([#99788](https://github.com/kubernetes/kubernetes/pull/99788),
+  [@logicalhan](https://github.com/logicalhan)) [SIG API Machinery, Instrumentation
+  and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-instrumentation/1209-metrics-stability
+  type: KEP
+author: logicalhan
+authorurl: https://github.com/logicalhan
+prurl: https://github.com/kubernetes/kubernetes/pull/99788
+prnumber: 99788
+areas:
+- apiserver
+- test
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- instrumentation
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,27 @@
+commit: 3cb61dea9bffece56234390e17348c9f5bb6a963
+text: Users might specify the `kubectl.kubernetes.io/default-exec-container` annotation
+  in a Pod to preselect container for kubectl commands.
+markdown: Users might specify the `kubectl.kubernetes.io/default-exec-container` annotation
+  in a Pod to preselect container for kubectl commands. ([#97099](https://github.com/kubernetes/kubernetes/pull/97099),
+  [@pacoxu](https://github.com/pacoxu)) [SIG CLI]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/blob/master/keps/sig-cli/2227-kubectl-default-container/README.md
+  type: KEP
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/97099
+prnumber: 97099
+areas:
+- kubectl
+kinds:
+- api-change
+- feature
+sigs:
+- cli
+feature: true
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,25 @@
+commit: 508a8839ad6ad9bde8d0a0ffc1c544018a4730c4
+text: |-
+  Migrate `pkg/kubelet/certificate` to structured logging
+  Exit code changed from 255 to 1
+markdown: |-
+  Migrate `pkg/kubelet/certificate` to structured logging
+    Exit code changed from 255 to 1 ([#98993](https://github.com/kubernetes/kubernetes/pull/98993), [@SataQiu](https://github.com/SataQiu)) [SIG Auth and Node]
+documentation: []
+author: SataQiu
+authorurl: https://github.com/SataQiu
+prurl: https://github.com/kubernetes/kubernetes/pull/98993
+prnumber: 98993
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- auth
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

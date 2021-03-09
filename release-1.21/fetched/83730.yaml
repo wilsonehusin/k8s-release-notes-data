@@ -1,0 +1,24 @@
+commit: 55f255208a682df65f322e5d48e8e9607eb221fc
+text: When using Containerd on Windows, the "C:\Windows\System32\drivers\etc\hosts"
+  file will now be managed by kubelet.
+markdown: When using Containerd on Windows, the "C:\Windows\System32\drivers\etc\hosts"
+  file will now be managed by kubelet. ([#83730](https://github.com/kubernetes/kubernetes/pull/83730),
+  [@claudiubelu](https://github.com/claudiubelu)) [SIG Node and Windows]
+documentation: []
+author: claudiubelu
+authorurl: https://github.com/claudiubelu
+prurl: https://github.com/kubernetes/kubernetes/pull/83730
+prnumber: 83730
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+- windows
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

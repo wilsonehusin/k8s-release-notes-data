@@ -1,0 +1,23 @@
+commit: 793390e13be91d79150b57abad5710477ab96bd7
+text: Resolves spurious `Failed to list *v1.Secret` or `Failed to list *v1.ConfigMap`
+  messages in kubelet logs.
+markdown: Resolves spurious `Failed to list *v1.Secret` or `Failed to list *v1.ConfigMap`
+  messages in kubelet logs. ([#99538](https://github.com/kubernetes/kubernetes/pull/99538),
+  [@liggitt](https://github.com/liggitt)) [SIG Auth and Node]
+documentation: []
+author: liggitt
+authorurl: https://github.com/liggitt
+prurl: https://github.com/kubernetes/kubernetes/pull/99538
+prnumber: 99538
+areas: []
+kinds:
+- bug
+sigs:
+- auth
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

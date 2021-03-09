@@ -1,0 +1,22 @@
+commit: 7c702138f9aa1bde679ced06692bb26d4006a762
+text: OpenStack Cinder CSI migration is on by default, Clinder CSI driver must be
+  installed on clusters on OpenStack for Cinder volumes to work.
+markdown: OpenStack Cinder CSI migration is on by default, Clinder CSI driver must
+  be installed on clusters on OpenStack for Cinder volumes to work. ([#98538](https://github.com/kubernetes/kubernetes/pull/98538),
+  [@dims](https://github.com/dims)) [SIG Storage]
+documentation: []
+author: dims
+authorurl: https://github.com/dims
+prurl: https://github.com/kubernetes/kubernetes/pull/98538
+prnumber: 98538
+areas: []
+kinds:
+- feature
+sigs:
+- storage
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

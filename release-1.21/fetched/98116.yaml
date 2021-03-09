@@ -1,0 +1,30 @@
+commit: 7eb99191a1803c87438e34e2f43a8d56bfb780cb
+text: "The endpointslice mirroring controller mirrors endpoints annotations and labels
+  to the generated endpoint slices, it also ensures that updates on any of these fields
+  are mirrored. \nThe well-known annotation endpoints.kubernetes.io/last-change-trigger-time
+  is skipped and not mirrored."
+markdown: "The endpointslice mirroring controller mirrors endpoints annotations and
+  labels to the generated endpoint slices, it also ensures that updates on any of
+  these fields are mirrored. \n  The well-known annotation endpoints.kubernetes.io/last-change-trigger-time
+  is skipped and not mirrored. ([#98116](https://github.com/kubernetes/kubernetes/pull/98116),
+  [@aojea](https://github.com/aojea)) [SIG Apps, Network and Testing]"
+documentation: []
+author: aojea
+authorurl: https://github.com/aojea
+prurl: https://github.com/kubernetes/kubernetes/pull/98116
+prnumber: 98116
+areas:
+- test
+kinds:
+- bug
+- feature
+sigs:
+- apps
+- network
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

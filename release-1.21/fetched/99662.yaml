@@ -1,0 +1,40 @@
+commit: 36244f31ef78dd3dd6bfbb74e1b15b4d01edcd6c
+text: EndpointSlice API is now GA. The EndpointSlice topology field has been removed
+  from the GA API and will be replaced by a new per Endpoint Zone field. If the topology
+  field was previously used, it will be converted into an annotation in the v1 Resource.
+  The discovery.k8s.io/v1alpha1 API is removed.
+markdown: EndpointSlice API is now GA. The EndpointSlice topology field has been removed
+  from the GA API and will be replaced by a new per Endpoint Zone field. If the topology
+  field was previously used, it will be converted into an annotation in the v1 Resource.
+  The discovery.k8s.io/v1alpha1 API is removed. ([#99662](https://github.com/kubernetes/kubernetes/pull/99662),
+  [@swetharepakula](https://github.com/swetharepakula)) [SIG API Machinery, CLI, Cloud
+  Provider, Cluster Lifecycle, Instrumentation, Network and Testing]
+documentation: []
+author: swetharepakula
+authorurl: https://github.com/swetharepakula
+prurl: https://github.com/kubernetes/kubernetes/pull/99662
+prnumber: 99662
+areas:
+- apiserver
+- cloudprovider
+- code-generation
+- dependency
+- kubectl
+- test
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- cli
+- cloud-provider
+- cluster-lifecycle
+- instrumentation
+- network
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

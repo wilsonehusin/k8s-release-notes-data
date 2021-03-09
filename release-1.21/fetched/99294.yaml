@@ -1,0 +1,24 @@
+commit: 1ddc4afcf87789b1646320bc9cd19d37a5def098
+text: 'kubeadm: promote IPv6DualStack feature gate to Beta'
+markdown: 'Kubeadm: promote IPv6DualStack feature gate to Beta ([#99294](https://github.com/kubernetes/kubernetes/pull/99294),
+  [@pacoxu](https://github.com/pacoxu)) [SIG Cluster Lifecycle]'
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-network/563-dual-stack
+  type: KEP
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/99294
+prnumber: 99294
+areas:
+- kubeadm
+kinds:
+- feature
+sigs:
+- cluster-lifecycle
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

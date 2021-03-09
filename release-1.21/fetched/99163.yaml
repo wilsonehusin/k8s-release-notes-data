@@ -1,0 +1,29 @@
+commit: 2e055dac58c28e746cbc6031244348ec50ab9721
+text: '`controller.kubernetes.io/pod-deletion-cost` annotation can be set to offer
+  a hint on the cost of deleting a pod compared to other pods belonging to the same
+  ReplicaSet. Pods with lower deletion cost are deleted first. This is an alpha feature.'
+markdown: '`controller.kubernetes.io/pod-deletion-cost` annotation can be set to offer
+  a hint on the cost of deleting a pod compared to other pods belonging to the same
+  ReplicaSet. Pods with lower deletion cost are deleted first. This is an alpha feature.
+  ([#99163](https://github.com/kubernetes/kubernetes/pull/99163), [@ahg-g](https://github.com/ahg-g))
+  [SIG Apps]'
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-apps/2255-pod-cost
+  type: KEP
+author: ahg-g
+authorurl: https://github.com/ahg-g
+prurl: https://github.com/kubernetes/kubernetes/pull/99163
+prnumber: 99163
+areas: []
+kinds:
+- api-change
+- feature
+sigs:
+- apps
+feature: true
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

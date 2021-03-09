@@ -1,0 +1,27 @@
+commit: 70f2608b53955806941924a8ed9854c443c474d2
+text: PodSecurityPolicy only stores "generic" as allowed volume type if the GenericEphemeralVolume
+  feature gate is enabled
+markdown: PodSecurityPolicy only stores "generic" as allowed volume type if the GenericEphemeralVolume
+  feature gate is enabled ([#98918](https://github.com/kubernetes/kubernetes/pull/98918),
+  [@pohly](https://github.com/pohly)) [SIG Auth and Security]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-storage/1698-generic-ephemeral-volumes
+  type: KEP
+author: pohly
+authorurl: https://github.com/pohly
+prurl: https://github.com/kubernetes/kubernetes/pull/98918
+prnumber: 98918
+areas: []
+kinds:
+- api-change
+- bug
+sigs:
+- auth
+- security
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

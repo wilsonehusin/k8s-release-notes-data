@@ -1,0 +1,32 @@
+commit: 7a4914014521369be9e5162b869476fdfc7ea2f9
+text: Introduce conditions for PodDisruptionBudget
+markdown: Introduce conditions for PodDisruptionBudget ([#98127](https://github.com/kubernetes/kubernetes/pull/98127),
+  [@mortent](https://github.com/mortent)) [SIG API Machinery, Apps, Auth, CLI, Cloud
+  Provider, Cluster Lifecycle and Instrumentation]
+documentation: []
+author: mortent
+authorurl: https://github.com/mortent
+prurl: https://github.com/kubernetes/kubernetes/pull/98127
+prnumber: 98127
+areas:
+- apiserver
+- cloudprovider
+- dependency
+- kubectl
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- apps
+- auth
+- cli
+- cloud-provider
+- cluster-lifecycle
+- instrumentation
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,22 @@
+commit: 930bede46ead9bef467c8b6c648f8be2364289e2
+text: Persistent Volumes formatted with the btrfs filesystem will now automatically
+  resize when expanded.
+markdown: Persistent Volumes formatted with the btrfs filesystem will now automatically
+  resize when expanded. ([#99361](https://github.com/kubernetes/kubernetes/pull/99361),
+  [@Novex](https://github.com/Novex)) [SIG Storage]
+documentation: []
+author: Novex
+authorurl: https://github.com/Novex
+prurl: https://github.com/kubernetes/kubernetes/pull/99361
+prnumber: 99361
+areas: []
+kinds:
+- feature
+sigs:
+- storage
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

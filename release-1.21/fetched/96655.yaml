@@ -1,0 +1,21 @@
+commit: a54414e3436fee9bf738cc975db1a55dbcee282c
+text: Add --use-protocol-buffers flag to kubectl top pods and nodes
+markdown: Add --use-protocol-buffers flag to kubectl top pods and nodes ([#96655](https://github.com/kubernetes/kubernetes/pull/96655),
+  [@serathius](https://github.com/serathius)) [SIG CLI]
+documentation: []
+author: serathius
+authorurl: https://github.com/serathius
+prurl: https://github.com/kubernetes/kubernetes/pull/96655
+prnumber: 96655
+areas:
+- kubectl
+kinds:
+- feature
+sigs:
+- cli
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

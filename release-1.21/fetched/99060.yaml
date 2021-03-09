@@ -1,0 +1,26 @@
+commit: b7613c4315c18592621ecae4d4959985ed497623
+text: |-
+  Available Commands:
+    node        Display Resource (CPU/Memory/Storage) usage of nodes
+    pod         Display Resource (CPU/Memory/Storage) usage of pods
+markdown: |-
+  Available Commands:
+      node        Display Resource (CPU/Memory/Storage) usage of nodes
+      pod         Display Resource (CPU/Memory/Storage) usage of pods ([#99060](https://github.com/kubernetes/kubernetes/pull/99060), [@syswu](https://github.com/syswu)) [SIG CLI]
+documentation: []
+author: syswu
+authorurl: https://github.com/syswu
+prurl: https://github.com/kubernetes/kubernetes/pull/99060
+prnumber: 99060
+areas:
+- kubectl
+kinds:
+- cleanup
+sigs:
+- cli
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: true
+datafields: {}

@@ -1,0 +1,21 @@
+commit: 14abaa23c32e9aaea19a5d59f3b0d6db820db74b
+text: Migrate `pkg/kubelet/(eviction)` to structured logging
+markdown: Migrate `pkg/kubelet/(eviction)` to structured logging ([#99032](https://github.com/kubernetes/kubernetes/pull/99032),
+  [@yangjunmyfm192085](https://github.com/yangjunmyfm192085)) [SIG Node]
+documentation: []
+author: yangjunmyfm192085
+authorurl: https://github.com/yangjunmyfm192085
+prurl: https://github.com/kubernetes/kubernetes/pull/99032
+prnumber: 99032
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

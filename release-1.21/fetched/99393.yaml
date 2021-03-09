@@ -1,0 +1,29 @@
+commit: a517eccd9f990c3f08eb0580312e08121808b79a
+text: |-
+  When the kubelet is watching a ConfigMap or Secret purely in the context of setting environment variables
+  for containers, only hold that watch for a defined duration before cancelling it. This change reduces the CPU
+  and memory usage of the kube-apiserver in large clusters.
+markdown: |-
+  When the kubelet is watching a ConfigMap or Secret purely in the context of setting environment variables
+    for containers, only hold that watch for a defined duration before cancelling it. This change reduces the CPU
+    and memory usage of the kube-apiserver in large clusters. ([#99393](https://github.com/kubernetes/kubernetes/pull/99393), [@chenyw1990](https://github.com/chenyw1990)) [SIG API Machinery, Node and Testing]
+documentation: []
+author: chenyw1990
+authorurl: https://github.com/chenyw1990
+prurl: https://github.com/kubernetes/kubernetes/pull/99393
+prnumber: 99393
+areas:
+- kubelet
+- test
+kinds:
+- feature
+sigs:
+- api-machinery
+- node
+- testing
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

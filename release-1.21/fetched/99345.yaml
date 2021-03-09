@@ -1,0 +1,24 @@
+commit: ee90db514c10cbbf7642db9aad7a204087d48475
+text: EndpointSlice controller is now less likely to emit FailedToUpdateEndpointSlices
+  events.
+markdown: EndpointSlice controller is now less likely to emit FailedToUpdateEndpointSlices
+  events. ([#99345](https://github.com/kubernetes/kubernetes/pull/99345), [@robscott](https://github.com/robscott))
+  [SIG Apps and Network]
+documentation: []
+author: robscott
+authorurl: https://github.com/robscott
+prurl: https://github.com/kubernetes/kubernetes/pull/99345
+prnumber: 99345
+areas: []
+kinds:
+- bug
+- cleanup
+sigs:
+- apps
+- network
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

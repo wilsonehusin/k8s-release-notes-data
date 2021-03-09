@@ -1,0 +1,28 @@
+commit: 94d5019369858851db5759748483f32f1986d56e
+text: Adds two new metrics to cronjobs, a  histogram to track the time difference
+  when a job is created and the expected time when it should be created, and a gauge
+  for the missed schedules of a cronjob
+markdown: Adds two new metrics to cronjobs, a  histogram to track the time difference
+  when a job is created and the expected time when it should be created, and a gauge
+  for the missed schedules of a cronjob ([#99341](https://github.com/kubernetes/kubernetes/pull/99341),
+  [@alaypatel07](https://github.com/alaypatel07)) [SIG Apps and Instrumentation]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/blob/master/keps/sig-apps/19-Graduate-CronJob-to-Stable/README.md
+  type: KEP
+author: alaypatel07
+authorurl: https://github.com/alaypatel07
+prurl: https://github.com/kubernetes/kubernetes/pull/99341
+prnumber: 99341
+areas: []
+kinds:
+- feature
+sigs:
+- apps
+- instrumentation
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

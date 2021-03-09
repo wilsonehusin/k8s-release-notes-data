@@ -1,0 +1,25 @@
+commit: ec1b6ce53affeabe86b8977a2aa26e532d0b5af5
+text: remove cAdvisor json metrics api collected by Kubelet
+markdown: Remove cAdvisor json metrics api collected by Kubelet ([#99236](https://github.com/kubernetes/kubernetes/pull/99236),
+  [@pacoxu](https://github.com/pacoxu)) [SIG Node]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/2129-remove-cadvisor-json-metrics
+  type: KEP
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/99236
+prnumber: 99236
+areas:
+- kubelet
+kinds:
+- cleanup
+- feature
+sigs:
+- node
+feature: true
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

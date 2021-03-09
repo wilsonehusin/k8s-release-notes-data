@@ -1,0 +1,22 @@
+commit: 445cb0609d2cffbfea4bd67a50f90f3655704ad1
+text: 'kubeadm: a warning to user as ipv6 site-local is deprecated'
+markdown: 'Kubeadm: a warning to user as ipv6 site-local is deprecated ([#99574](https://github.com/kubernetes/kubernetes/pull/99574),
+  [@pacoxu](https://github.com/pacoxu)) [SIG Cluster Lifecycle and Network]'
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/99574
+prnumber: 99574
+areas:
+- kubeadm
+kinds:
+- feature
+sigs:
+- cluster-lifecycle
+- network
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

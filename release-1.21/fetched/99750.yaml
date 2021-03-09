@@ -1,0 +1,20 @@
+commit: 76f2a4d5fd8364edbb31a3611178c918644f415c
+text: EndpointSlice generation is now incremented when labels change.
+markdown: EndpointSlice generation is now incremented when labels change. ([#99750](https://github.com/kubernetes/kubernetes/pull/99750),
+  [@robscott](https://github.com/robscott)) [SIG Network]
+documentation: []
+author: robscott
+authorurl: https://github.com/robscott
+prurl: https://github.com/kubernetes/kubernetes/pull/99750
+prnumber: 99750
+areas: []
+kinds:
+- cleanup
+sigs:
+- network
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

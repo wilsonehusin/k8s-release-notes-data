@@ -1,0 +1,22 @@
+commit: de9821c6d058331dca0b0d9d6e659a0e21b4b988
+text: Disruption controller only sends one event per PodDisruptionBudget if scale
+  can't be computed
+markdown: Disruption controller only sends one event per PodDisruptionBudget if scale
+  can't be computed ([#98128](https://github.com/kubernetes/kubernetes/pull/98128),
+  [@mortent](https://github.com/mortent)) [SIG Apps]
+documentation: []
+author: mortent
+authorurl: https://github.com/mortent
+prurl: https://github.com/kubernetes/kubernetes/pull/98128
+prnumber: 98128
+areas: []
+kinds:
+- feature
+sigs:
+- apps
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

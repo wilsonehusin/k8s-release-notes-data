@@ -1,0 +1,31 @@
+commit: 9f451c03e9cf93341d91c5c1014c8e49395e2438
+text: |-
+  When a CNI plugin returns dual-stack pod IPs, kubelet will now try to respect the
+  "primary IP family" of the cluster by picking a primary pod IP of the same family
+  as the (primary) node IP, rather than assuming that the CNI plugin returned the IPs
+  in the order the administrator wanted (since some CNI plugins don't allow
+  configuring this).
+markdown: |-
+  When a CNI plugin returns dual-stack pod IPs, kubelet will now try to respect the
+    "primary IP family" of the cluster by picking a primary pod IP of the same family
+    as the (primary) node IP, rather than assuming that the CNI plugin returned the IPs
+    in the order the administrator wanted (since some CNI plugins don't allow
+    configuring this). ([#97979](https://github.com/kubernetes/kubernetes/pull/97979), [@danwinship](https://github.com/danwinship)) [SIG Network and Node]
+documentation: []
+author: danwinship
+authorurl: https://github.com/danwinship
+prurl: https://github.com/kubernetes/kubernetes/pull/97979
+prnumber: 97979
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- network
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,30 @@
+commit: 4bf85032f3c391ff710390c41996642cd4134c40
+text: "IngressClass resource can now reference a resource in a specific namespace
+  \nfor implementation-specific configuration(previously only Cluster-level resources
+  were allowed). \nThis feature can be enabled using the IngressClassNamespacedParams
+  feature gate."
+markdown: "IngressClass resource can now reference a resource in a specific namespace
+  \n  for implementation-specific configuration(previously only Cluster-level resources
+  were allowed). \n  This feature can be enabled using the IngressClassNamespacedParams
+  feature gate. ([#99275](https://github.com/kubernetes/kubernetes/pull/99275), [@hbagdi](https://github.com/hbagdi))
+  [SIG API Machinery, CLI and Network]"
+documentation: []
+author: hbagdi
+authorurl: https://github.com/hbagdi
+prurl: https://github.com/kubernetes/kubernetes/pull/99275
+prnumber: 99275
+areas:
+- kubectl
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- cli
+- network
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

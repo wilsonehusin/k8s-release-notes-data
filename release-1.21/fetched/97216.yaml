@@ -1,0 +1,21 @@
+commit: b2af8aefba9dff6e2d9787639ff133b880089dea
+text: clarified NetworkPolicy policyTypes documentation
+markdown: Clarified NetworkPolicy policyTypes documentation ([#97216](https://github.com/kubernetes/kubernetes/pull/97216),
+  [@joejulian](https://github.com/joejulian)) [SIG Network]
+documentation: []
+author: joejulian
+authorurl: https://github.com/joejulian
+prurl: https://github.com/kubernetes/kubernetes/pull/97216
+prnumber: 97216
+areas: []
+kinds:
+- api-change
+- documentation
+sigs:
+- network
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

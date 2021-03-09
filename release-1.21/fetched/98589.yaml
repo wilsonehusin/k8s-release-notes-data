@@ -1,0 +1,21 @@
+commit: da2f6385e9a0b5864c5af19eb3161051be511309
+text: migrate pkg/kubelet/cri/remote logs to structured logging
+markdown: Migrate pkg/kubelet/cri/remote logs to structured logging ([#98589](https://github.com/kubernetes/kubernetes/pull/98589),
+  [@chenyw1990](https://github.com/chenyw1990)) [SIG Node]
+documentation: []
+author: chenyw1990
+authorurl: https://github.com/chenyw1990
+prurl: https://github.com/kubernetes/kubernetes/pull/98589
+prnumber: 98589
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

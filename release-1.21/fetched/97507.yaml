@@ -1,0 +1,20 @@
+commit: 3ce93161fe57e25ada60589bae7bfac274db68a6
+text: Migrate deployment controller log messages to structured logging
+markdown: Migrate deployment controller log messages to structured logging ([#97507](https://github.com/kubernetes/kubernetes/pull/97507),
+  [@aldudko](https://github.com/aldudko)) [SIG Apps]
+documentation: []
+author: aldudko
+authorurl: https://github.com/aldudko
+prurl: https://github.com/kubernetes/kubernetes/pull/97507
+prnumber: 97507
+areas: []
+kinds:
+- cleanup
+sigs:
+- apps
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

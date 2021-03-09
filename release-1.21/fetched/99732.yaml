@@ -1,0 +1,27 @@
+commit: f8151b121f3f4d4a44f471a727c00f8a709836e9
+text: |-
+  Remove deprecated --generator --replicas --service-generator --service-overrides --schedule from kubectl run
+  Deprecate --serviceaccount --hostport --requests --limits in kubectl run
+markdown: |-
+  Remove deprecated --generator --replicas --service-generator --service-overrides --schedule from kubectl run
+    Deprecate --serviceaccount --hostport --requests --limits in kubectl run ([#99732](https://github.com/kubernetes/kubernetes/pull/99732), [@soltysh](https://github.com/soltysh)) [SIG CLI and Testing]
+documentation: []
+author: soltysh
+authorurl: https://github.com/soltysh
+prurl: https://github.com/kubernetes/kubernetes/pull/99732
+prnumber: 99732
+areas:
+- kubectl
+- test
+kinds:
+- cleanup
+- deprecation
+sigs:
+- cli
+- testing
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

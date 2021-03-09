@@ -1,0 +1,31 @@
+commit: 4013bd17c328d0f419a9915e8e25178febb2be62
+text: On single-stack configured (IPv4 or IPv6, but not both) clusters, Services which
+  are both headless (no clusterIP) and selectorless (empty or undefined selector)
+  will report `ipFamilyPolicy RequireDualStack` and will have entries in `ipFamilies[]`
+  for both IPv4 and IPv6.  This is a change from alpha, but does not have any impact
+  on the manually-specified Endpoints and EndpointSlices for the Service.
+markdown: On single-stack configured (IPv4 or IPv6, but not both) clusters, Services
+  which are both headless (no clusterIP) and selectorless (empty or undefined selector)
+  will report `ipFamilyPolicy RequireDualStack` and will have entries in `ipFamilies[]`
+  for both IPv4 and IPv6.  This is a change from alpha, but does not have any impact
+  on the manually-specified Endpoints and EndpointSlices for the Service. ([#99555](https://github.com/kubernetes/kubernetes/pull/99555),
+  [@thockin](https://github.com/thockin)) [SIG Apps and Network]
+documentation: []
+author: thockin
+authorurl: https://github.com/thockin
+prurl: https://github.com/kubernetes/kubernetes/pull/99555
+prnumber: 99555
+areas:
+- apiserver
+- ipv6
+kinds:
+- bug
+sigs:
+- apps
+- network
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

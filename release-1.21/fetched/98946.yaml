@@ -1,0 +1,37 @@
+commit: ff3ccc58cd926260731c5e6f4a9405d595916369
+text: "Updates the commands \n - kubectl kustomize {arg}\n - kubectl apply -k {arg}\nto
+  use same code as kustomize CLI v4.0.5\n - [v4.0.5]: https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize%2Fv4.0.5"
+markdown: "Updates the commands \n   - kubectl kustomize {arg}\n   - kubectl apply
+  -k {arg}\n  to use same code as kustomize CLI v4.0.5\n   - [v4.0.5]: https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize%2Fv4.0.5
+  ([#98946](https://github.com/kubernetes/kubernetes/pull/98946), [@monopole](https://github.com/monopole))
+  [SIG API Machinery, Architecture, CLI, Cloud Provider, Cluster Lifecycle, Instrumentation,
+  Node and Storage]"
+documentation: []
+author: monopole
+authorurl: https://github.com/monopole
+prurl: https://github.com/kubernetes/kubernetes/pull/98946
+prnumber: 98946
+areas:
+- apiserver
+- cloudprovider
+- code-generation
+- conformance
+- dependency
+- kubectl
+kinds:
+- bug
+sigs:
+- api-machinery
+- architecture
+- cli
+- cloud-provider
+- cluster-lifecycle
+- instrumentation
+- node
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,28 @@
+commit: cdd80af120a219c21ace00280f0cb06517dc0b18
+text: Newly provisioned PVs by OpenStack Cinder plugin will no longer use the deprecated
+  "failure-domain.beta.kubernetes.io/zone" and "failure-domain.beta.kubernetes.io/region"
+  labels. It will use "topology.kubernetes.io/zone" and "topology.kubernetes.io/region"
+  labels instead.
+markdown: Newly provisioned PVs by OpenStack Cinder plugin will no longer use the
+  deprecated "failure-domain.beta.kubernetes.io/zone" and "failure-domain.beta.kubernetes.io/region"
+  labels. It will use "topology.kubernetes.io/zone" and "topology.kubernetes.io/region"
+  labels instead. ([#99719](https://github.com/kubernetes/kubernetes/pull/99719),
+  [@jsafrane](https://github.com/jsafrane)) [SIG Cloud Provider and Storage]
+documentation: []
+author: jsafrane
+authorurl: https://github.com/jsafrane
+prurl: https://github.com/kubernetes/kubernetes/pull/99719
+prnumber: 99719
+areas:
+- cloudprovider
+kinds:
+- feature
+sigs:
+- cloud-provider
+- storage
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

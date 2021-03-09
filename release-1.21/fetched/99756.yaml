@@ -1,0 +1,24 @@
+commit: fde28141e679b5b16eaff23d5efbbcc202692358
+text: EndpointSliceMirroring controller is now less likely to emit FailedToUpdateEndpointSlices
+  events.
+markdown: EndpointSliceMirroring controller is now less likely to emit FailedToUpdateEndpointSlices
+  events. ([#99756](https://github.com/kubernetes/kubernetes/pull/99756), [@robscott](https://github.com/robscott))
+  [SIG Apps and Network]
+documentation: []
+author: robscott
+authorurl: https://github.com/robscott
+prurl: https://github.com/kubernetes/kubernetes/pull/99756
+prnumber: 99756
+areas: []
+kinds:
+- bug
+- cleanup
+sigs:
+- apps
+- network
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

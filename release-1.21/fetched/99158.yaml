@@ -1,0 +1,24 @@
+commit: 739a72b9cce70666ef0512de188f39a2ce57cf3e
+text: sysctls is now GA and locked to default
+markdown: Sysctls is now GA and locked to default ([#99158](https://github.com/kubernetes/kubernetes/pull/99158),
+  [@wgahnagl](https://github.com/wgahnagl)) [SIG Node]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/34-sysctl-fields#graduation
+  type: KEP
+author: wgahnagl
+authorurl: https://github.com/wgahnagl
+prurl: https://github.com/kubernetes/kubernetes/pull/99158
+prnumber: 99158
+areas:
+- kubelet
+kinds:
+- feature
+sigs:
+- node
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

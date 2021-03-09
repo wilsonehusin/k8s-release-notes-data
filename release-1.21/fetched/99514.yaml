@@ -1,0 +1,24 @@
+commit: 9fa33ada4b4194c62b4361680048fcb5569f8556
+text: Fix bug that would let the Horizontal Pod Autoscaler scale down despite at least
+  one metric being unavailable/invalid
+markdown: Fix bug that would let the Horizontal Pod Autoscaler scale down despite
+  at least one metric being unavailable/invalid ([#99514](https://github.com/kubernetes/kubernetes/pull/99514),
+  [@mikkeloscar](https://github.com/mikkeloscar)) [SIG Apps and Autoscaling]
+documentation: []
+author: mikkeloscar
+authorurl: https://github.com/mikkeloscar
+prurl: https://github.com/kubernetes/kubernetes/pull/99514
+prnumber: 99514
+areas: []
+kinds:
+- bug
+- regression
+sigs:
+- apps
+- autoscaling
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

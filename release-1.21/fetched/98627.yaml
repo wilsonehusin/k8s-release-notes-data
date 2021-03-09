@@ -1,0 +1,22 @@
+commit: 62bb595cbe6f59041d187ddf035dda8aaa111339
+text: Migrate some kubelet/metrics log messages to structured logging
+markdown: Migrate some kubelet/metrics log messages to structured logging ([#98627](https://github.com/kubernetes/kubernetes/pull/98627),
+  [@jialaijun](https://github.com/jialaijun)) [SIG Instrumentation and Node]
+documentation: []
+author: jialaijun
+authorurl: https://github.com/jialaijun
+prurl: https://github.com/kubernetes/kubernetes/pull/98627
+prnumber: 98627
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- instrumentation
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

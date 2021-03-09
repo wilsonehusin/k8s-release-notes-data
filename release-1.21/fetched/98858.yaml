@@ -1,0 +1,34 @@
+commit: 5106581d232dbae76812676a56045e232d42d446
+text: '`audit.k8s.io/v1beta1` and `audit.k8s.io/v1alpha1` audit policy configuration
+  and audit events are deprecated in favor of `audit.k8s.io/v1`, available since v1.13.
+  kube-apiserver invocations that specify alpha or beta policy configurations with
+  `--audit-policy-file`, or explicitly request alpha or beta audit events with `--audit-log-version`
+  / `--audit-webhook-version` must update to use `audit.k8s.io/v1` and accept `audit.k8s.io/v1`
+  events prior to v1.24.'
+markdown: '`audit.k8s.io/v1beta1` and `audit.k8s.io/v1alpha1` audit policy configuration
+  and audit events are deprecated in favor of `audit.k8s.io/v1`, available since v1.13.
+  kube-apiserver invocations that specify alpha or beta policy configurations with
+  `--audit-policy-file`, or explicitly request alpha or beta audit events with `--audit-log-version`
+  / `--audit-webhook-version` must update to use `audit.k8s.io/v1` and accept `audit.k8s.io/v1`
+  events prior to v1.24. ([#98858](https://github.com/kubernetes/kubernetes/pull/98858),
+  [@carlory](https://github.com/carlory)) [SIG Auth]'
+documentation: []
+author: carlory
+authorurl: https://github.com/carlory
+prurl: https://github.com/kubernetes/kubernetes/pull/98858
+prnumber: 98858
+areas:
+- apiserver
+kinds:
+- api-change
+- cleanup
+- deprecation
+- feature
+sigs:
+- auth
+feature: true
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

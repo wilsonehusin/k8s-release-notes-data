@@ -1,0 +1,22 @@
+commit: 716a0547206a71ecc6e53f8b970728bc85063a60
+text: fix smb mount PermissionDenied issue on Windows
+markdown: Fix smb mount PermissionDenied issue on Windows ([#99550](https://github.com/kubernetes/kubernetes/pull/99550),
+  [@andyzhangx](https://github.com/andyzhangx)) [SIG Cloud Provider, Storage and Windows]
+documentation: []
+author: andyzhangx
+authorurl: https://github.com/andyzhangx
+prurl: https://github.com/kubernetes/kubernetes/pull/99550
+prnumber: 99550
+areas: []
+kinds:
+- bug
+sigs:
+- cloud-provider
+- storage
+- windows
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,24 @@
+commit: 56bcd562a40c4c6ee2a1c230d83879ccac51d763
+text: migrate pkg/kubelet/kuberuntime/kuberuntime_container.go logs to structured
+  logging
+markdown: Migrate pkg/kubelet/kuberuntime/kuberuntime_container.go logs to structured
+  logging ([#96973](https://github.com/kubernetes/kubernetes/pull/96973), [@chenyw1990](https://github.com/chenyw1990))
+  [SIG Instrumentation and Node]
+documentation: []
+author: chenyw1990
+authorurl: https://github.com/chenyw1990
+prurl: https://github.com/kubernetes/kubernetes/pull/96973
+prnumber: 96973
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- instrumentation
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

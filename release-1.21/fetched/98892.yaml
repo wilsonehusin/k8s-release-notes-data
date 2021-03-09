@@ -1,0 +1,26 @@
+commit: cd54b1931d015df7c1609043d81b1f8308f2187d
+text: A client-go metric, rest_client_exec_plugin_call_total, has been added to track
+  total calls to client-go credential plugins.
+markdown: A client-go metric, rest_client_exec_plugin_call_total, has been added to
+  track total calls to client-go credential plugins. ([#98892](https://github.com/kubernetes/kubernetes/pull/98892),
+  [@ankeesler](https://github.com/ankeesler)) [SIG API Machinery, Auth, Cluster Lifecycle
+  and Instrumentation]
+documentation: []
+author: ankeesler
+authorurl: https://github.com/ankeesler
+prurl: https://github.com/kubernetes/kubernetes/pull/98892
+prnumber: 98892
+areas: []
+kinds:
+- feature
+sigs:
+- api-machinery
+- auth
+- cluster-lifecycle
+- instrumentation
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

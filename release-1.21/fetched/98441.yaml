@@ -1,0 +1,30 @@
+commit: 6059a67e49f04ea49120b113897d25286773a397
+text: Added `.spec.completionMode` field to Job, with accepted values `NonIndexed`
+  (default) and `Indexed`
+markdown: Added `.spec.completionMode` field to Job, with accepted values `NonIndexed`
+  (default) and `Indexed` ([#98441](https://github.com/kubernetes/kubernetes/pull/98441),
+  [@alculquicondor](https://github.com/alculquicondor)) [SIG Apps and CLI]
+documentation:
+- description: '[KEP]'
+  url: http://git.k8s.io/enhancements/keps/sig-apps/2214-indexed-job
+  type: external
+author: alculquicondor
+authorurl: https://github.com/alculquicondor
+prurl: https://github.com/kubernetes/kubernetes/pull/98441
+prnumber: 98441
+areas:
+- batch
+- kubectl
+- workload-api/job
+kinds:
+- api-change
+- feature
+sigs:
+- apps
+- cli
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

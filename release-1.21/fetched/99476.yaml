@@ -1,0 +1,27 @@
+commit: 3abeb174c4d2e6ce95f6f5d51f82f91d28cccd03
+text: 'kubeadm: if the user has customized their image repository via the kubeadm
+  configuration, pass the custom pause image repository and tag to the kubelet via
+  --pod-infra-container-image not only for Docker but for all container runtimes.
+  This flag tells the kubelet that it should not garbage collect the image.'
+markdown: 'Kubeadm: if the user has customized their image repository via the kubeadm
+  configuration, pass the custom pause image repository and tag to the kubelet via
+  --pod-infra-container-image not only for Docker but for all container runtimes.
+  This flag tells the kubelet that it should not garbage collect the image. ([#99476](https://github.com/kubernetes/kubernetes/pull/99476),
+  [@neolit123](https://github.com/neolit123)) [SIG Cluster Lifecycle]'
+documentation: []
+author: neolit123
+authorurl: https://github.com/neolit123
+prurl: https://github.com/kubernetes/kubernetes/pull/99476
+prnumber: 99476
+areas:
+- kubeadm
+kinds:
+- feature
+sigs:
+- cluster-lifecycle
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,27 @@
+commit: 85cb886f7e2911a14cc84acc32c20a5d0254d8b9
+text: |-
+  Alpha implementation of Kubectl Command Headers: SIG CLI KEP 859 enabled when KUBECTL_COMMAND_HEADERS environment variable set on the client command line.
+  - To enable: export KUBECTL_COMMAND_HEADERS=1; kubectl ...
+markdown: |-
+  Alpha implementation of Kubectl Command Headers: SIG CLI KEP 859 enabled when KUBECTL_COMMAND_HEADERS environment variable set on the client command line.
+    - To enable: export KUBECTL_COMMAND_HEADERS=1; kubectl ... ([#98952](https://github.com/kubernetes/kubernetes/pull/98952), [@seans3](https://github.com/seans3)) [SIG API Machinery and CLI]
+documentation: []
+author: seans3
+authorurl: https://github.com/seans3
+prurl: https://github.com/kubernetes/kubernetes/pull/98952
+prnumber: 98952
+areas:
+- code-generation
+- dependency
+- kubectl
+kinds:
+- feature
+sigs:
+- api-machinery
+- cli
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

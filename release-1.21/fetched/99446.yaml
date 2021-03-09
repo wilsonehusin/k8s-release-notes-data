@@ -1,0 +1,30 @@
+commit: a238698ea08ba2ba72416e4398691e705929c3ab
+text: 'kube-apiserver: an update of a pod with a generic ephemeral volume dropped
+  that volume if the feature had been disabled since creating the pod with such a
+  volume'
+markdown: 'Kube-apiserver: an update of a pod with a generic ephemeral volume dropped
+  that volume if the feature had been disabled since creating the pod with such a
+  volume ([#99446](https://github.com/kubernetes/kubernetes/pull/99446), [@pohly](https://github.com/pohly))
+  [SIG Apps, Node and Storage]'
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/blob/master/keps/sig-storage/1698-generic-ephemeral-volumes/README.md
+  type: KEP
+author: pohly
+authorurl: https://github.com/pohly
+prurl: https://github.com/kubernetes/kubernetes/pull/99446
+prnumber: 99446
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- apps
+- node
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

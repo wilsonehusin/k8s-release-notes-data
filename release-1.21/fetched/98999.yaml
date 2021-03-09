@@ -1,0 +1,21 @@
+commit: c7389c1f351d16fc061476b0d0c10e9a691e7089
+text: migrate pkg/kubelet/cloudresource to structured logging
+markdown: Migrate pkg/kubelet/cloudresource to structured logging ([#98999](https://github.com/kubernetes/kubernetes/pull/98999),
+  [@sladyn98](https://github.com/sladyn98)) [SIG Node]
+documentation: []
+author: sladyn98
+authorurl: https://github.com/sladyn98
+prurl: https://github.com/kubernetes/kubernetes/pull/98999
+prnumber: 98999
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

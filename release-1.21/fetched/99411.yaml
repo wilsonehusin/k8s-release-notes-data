@@ -1,0 +1,20 @@
+commit: 05988d76177a1161b5ff67e366e73a3f1d2063c9
+text: kube-scheduler now logs plugin scoring summaries at --v=4
+markdown: Kube-scheduler now logs plugin scoring summaries at --v=4 ([#99411](https://github.com/kubernetes/kubernetes/pull/99411),
+  [@damemi](https://github.com/damemi)) [SIG Scheduling]
+documentation: []
+author: damemi
+authorurl: https://github.com/damemi
+prurl: https://github.com/kubernetes/kubernetes/pull/99411
+prnumber: 99411
+areas: []
+kinds:
+- feature
+sigs:
+- scheduling
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

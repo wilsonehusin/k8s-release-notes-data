@@ -1,0 +1,56 @@
+commit: 5498ee641b3459a0da1d4b2d42d502a318194189
+text: Remove support for building Kubernetes with bazel.
+markdown: Remove support for building Kubernetes with bazel. ([#99561](https://github.com/kubernetes/kubernetes/pull/99561),
+  [@BenTheElder](https://github.com/BenTheElder)) [SIG API Machinery, Apps, Architecture,
+  Auth, Autoscaling, CLI, Cloud Provider, Cluster Lifecycle, Instrumentation, Network,
+  Node, Release, Scalability, Scheduling, Storage, Testing and Windows]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/issues/2420
+  type: KEP
+author: BenTheElder
+authorurl: https://github.com/BenTheElder
+prurl: https://github.com/kubernetes/kubernetes/pull/99561
+prnumber: 99561
+areas:
+- apiserver
+- cloudprovider
+- code-generation
+- conformance
+- dependency
+- e2e-test-framework
+- ipvs
+- kubeadm
+- kubectl
+- kubelet
+- provider/gcp
+- release-eng
+- test
+kinds:
+- api-change
+- cleanup
+- flake
+sigs:
+- api-machinery
+- apps
+- architecture
+- auth
+- autoscaling
+- cli
+- cloud-provider
+- cluster-lifecycle
+- instrumentation
+- network
+- node
+- release
+- scalability
+- scheduling
+- storage
+- testing
+- windows
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

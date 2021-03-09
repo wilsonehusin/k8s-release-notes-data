@@ -1,0 +1,28 @@
+commit: 267e47f548ae2adedad2a78032f0982f4c7031e6
+text: Newly provisioned PVs by EBS plugin will no longer use the deprecated "failure-domain.beta.kubernetes.io/zone"
+  and "failure-domain.beta.kubernetes.io/region" labels. It will use "topology.kubernetes.io/zone"
+  and "topology.kubernetes.io/region" labels instead.
+markdown: Newly provisioned PVs by EBS plugin will no longer use the deprecated "failure-domain.beta.kubernetes.io/zone"
+  and "failure-domain.beta.kubernetes.io/region" labels. It will use "topology.kubernetes.io/zone"
+  and "topology.kubernetes.io/region" labels instead. ([#99130](https://github.com/kubernetes/kubernetes/pull/99130),
+  [@ayberk](https://github.com/ayberk)) [SIG Cloud Provider, Storage and Testing]
+documentation: []
+author: ayberk
+authorurl: https://github.com/ayberk
+prurl: https://github.com/kubernetes/kubernetes/pull/99130
+prnumber: 99130
+areas:
+- cloudprovider
+- test
+kinds:
+- bug
+sigs:
+- cloud-provider
+- storage
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

@@ -1,0 +1,39 @@
+commit: 4cc1127e9251fff364d5c77e2a9a9c3ad42383ab
+text: |-
+  #### before
+  === RUN   TestAttachDetach
+      attacher_test.go:139: Test "Attach_Positive" succeeded
+  E0219 15:45:08.058933    7036 attacher.go:86] Error attaching volume "disk" to node "instance": Fake attach error
+      attacher_test.go:139: Test "Attach_Negative" succeeded
+      attacher_test.go:139: Test "Detach_Positive" succeeded
+  E0219 15:45:08.080894    7036 attacher.go:282] Error detaching volumeID "disk": Fake detach error
+      attacher_test.go:139: Test "Detach_Negative" succeeded
+  --- PASS: TestAttachDetach (0.02s)
+  PASS
+markdown: |-
+  #### before
+    === RUN   TestAttachDetach
+        attacher_test.go:139: Test "Attach_Positive" succeeded
+    E0219 15:45:08.058933    7036 attacher.go:86] Error attaching volume "disk" to node "instance": Fake attach error
+        attacher_test.go:139: Test "Attach_Negative" succeeded
+        attacher_test.go:139: Test "Detach_Positive" succeeded
+    E0219 15:45:08.080894    7036 attacher.go:282] Error detaching volumeID "disk": Fake detach error
+        attacher_test.go:139: Test "Detach_Negative" succeeded
+    --- PASS: TestAttachDetach (0.02s)
+    PASS ([#99229](https://github.com/kubernetes/kubernetes/pull/99229), [@tanjing2020](https://github.com/tanjing2020)) [SIG Storage]
+documentation: []
+author: tanjing2020
+authorurl: https://github.com/tanjing2020
+prurl: https://github.com/kubernetes/kubernetes/pull/99229
+prnumber: 99229
+areas: []
+kinds:
+- cleanup
+sigs:
+- storage
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: true
+datafields: {}

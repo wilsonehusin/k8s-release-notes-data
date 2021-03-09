@@ -1,0 +1,28 @@
+commit: 72d92159bc11ce0bca5475461f72da842d0dbb9f
+text: apiserver_request_duration_seconds is promoted to stable status.
+markdown: Apiserver_request_duration_seconds is promoted to stable status. ([#99925](https://github.com/kubernetes/kubernetes/pull/99925),
+  [@logicalhan](https://github.com/logicalhan)) [SIG API Machinery, Instrumentation
+  and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-instrumentation/1209-metrics-stability
+  type: KEP
+author: logicalhan
+authorurl: https://github.com/logicalhan
+prurl: https://github.com/kubernetes/kubernetes/pull/99925
+prnumber: 99925
+areas:
+- apiserver
+- test
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- instrumentation
+- testing
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

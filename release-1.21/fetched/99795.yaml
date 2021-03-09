@@ -1,0 +1,23 @@
+commit: d11582b44be76e7936538cc96c2a01fdaae8904b
+text: The maximum number of ports allowed in EndpointSlices has been increased from
+  100 to 20,000
+markdown: The maximum number of ports allowed in EndpointSlices has been increased
+  from 100 to 20,000 ([#99795](https://github.com/kubernetes/kubernetes/pull/99795),
+  [@robscott](https://github.com/robscott)) [SIG Network]
+documentation: []
+author: robscott
+authorurl: https://github.com/robscott
+prurl: https://github.com/kubernetes/kubernetes/pull/99795
+prnumber: 99795
+areas: []
+kinds:
+- bug
+- cleanup
+sigs:
+- network
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

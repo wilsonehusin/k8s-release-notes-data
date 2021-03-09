@@ -1,0 +1,30 @@
+commit: ecdbcd8963fb9df36589adee80d2b4b49855658a
+text: Process start time on Windows now uses current process information
+markdown: Process start time on Windows now uses current process information ([#97491](https://github.com/kubernetes/kubernetes/pull/97491),
+  [@jsturtevant](https://github.com/jsturtevant)) [SIG API Machinery, CLI, Cloud Provider,
+  Cluster Lifecycle, Instrumentation and Windows]
+documentation: []
+author: jsturtevant
+authorurl: https://github.com/jsturtevant
+prurl: https://github.com/kubernetes/kubernetes/pull/97491
+prnumber: 97491
+areas:
+- apiserver
+- cloudprovider
+- dependency
+- kubectl
+kinds:
+- cleanup
+sigs:
+- api-machinery
+- cli
+- cloud-provider
+- cluster-lifecycle
+- instrumentation
+- windows
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,26 @@
+commit: 4cf8823fbaedaeeb8a5c094b574d489b5ca5f6fe
+text: The apiserver now resets managedFields that got corrupted by a mutating admission
+  controller.
+markdown: The apiserver now resets managedFields that got corrupted by a mutating
+  admission controller. ([#98074](https://github.com/kubernetes/kubernetes/pull/98074),
+  [@kwiesmueller](https://github.com/kwiesmueller)) [SIG API Machinery and Testing]
+documentation: []
+author: kwiesmueller
+authorurl: https://github.com/kwiesmueller
+prurl: https://github.com/kubernetes/kubernetes/pull/98074
+prnumber: 98074
+areas:
+- apiserver
+- test
+kinds:
+- api-change
+- bug
+sigs:
+- api-machinery
+- testing
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

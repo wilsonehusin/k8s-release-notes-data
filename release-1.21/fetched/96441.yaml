@@ -1,0 +1,34 @@
+commit: 377ed3c2a638d38d46c1471a901903a7ced21561
+text: DaemonSets accept a MaxSurge integer or percent on their rolling update strategy
+  that will launch the updated pod on nodes and wait for those pods to go ready before
+  marking the old out-of-date pods as deleted. This allows workloads to avoid downtime
+  during upgrades when deployed using DaemonSets. This feature is alpha and is behind
+  the DaemonSetUpdateSurge feature gate.
+markdown: DaemonSets accept a MaxSurge integer or percent on their rolling update
+  strategy that will launch the updated pod on nodes and wait for those pods to go
+  ready before marking the old out-of-date pods as deleted. This allows workloads
+  to avoid downtime during upgrades when deployed using DaemonSets. This feature is
+  alpha and is behind the DaemonSetUpdateSurge feature gate. ([#96441](https://github.com/kubernetes/kubernetes/pull/96441),
+  [@smarterclayton](https://github.com/smarterclayton)) [SIG Apps and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-apps/1591-daemonset-surge
+  type: KEP
+author: smarterclayton
+authorurl: https://github.com/smarterclayton
+prurl: https://github.com/kubernetes/kubernetes/pull/96441
+prnumber: 96441
+areas:
+- test
+kinds:
+- api-change
+- feature
+sigs:
+- apps
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

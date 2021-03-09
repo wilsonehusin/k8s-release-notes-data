@@ -1,0 +1,30 @@
+commit: d1a2af554a281f22c14c7dbeaf824e478fc0c11c
+text: added `ephemeral_volume_controller_create[_failures]_total` counters to kube-controller-manager
+  metrics
+markdown: Added `ephemeral_volume_controller_create[_failures]_total` counters to
+  kube-controller-manager metrics ([#99115](https://github.com/kubernetes/kubernetes/pull/99115),
+  [@pohly](https://github.com/pohly)) [SIG API Machinery, Apps, Cluster Lifecycle,
+  Instrumentation and Storage]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/pohly/enhancements/blob/master/keps/sig-storage/1698-generic-ephemeral-volumes/README.md#monitoring-requirements
+  type: external
+author: pohly
+authorurl: https://github.com/pohly
+prurl: https://github.com/kubernetes/kubernetes/pull/99115
+prnumber: 99115
+areas: []
+kinds:
+- feature
+sigs:
+- api-machinery
+- apps
+- cluster-lifecycle
+- instrumentation
+- storage
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

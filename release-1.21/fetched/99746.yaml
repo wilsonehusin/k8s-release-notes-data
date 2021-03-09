@@ -1,0 +1,23 @@
+commit: cc4bd511bbb27c5b90c01c0fc99a6005d7ac8a15
+text: EndpointSliceNodeName will always be enabled, so NodeName will always be available
+  in the v1beta1 API.
+markdown: EndpointSliceNodeName will always be enabled, so NodeName will always be
+  available in the v1beta1 API. ([#99746](https://github.com/kubernetes/kubernetes/pull/99746),
+  [@swetharepakula](https://github.com/swetharepakula)) [SIG Apps and Network]
+documentation: []
+author: swetharepakula
+authorurl: https://github.com/swetharepakula
+prurl: https://github.com/kubernetes/kubernetes/pull/99746
+prnumber: 99746
+areas: []
+kinds:
+- feature
+sigs:
+- apps
+- network
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

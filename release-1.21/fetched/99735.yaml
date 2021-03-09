@@ -1,0 +1,25 @@
+commit: 7125496e66e29a999ed6cfba5af6e5e0947bb36b
+text: Kubelet Graceful Node Shutdown feature is now beta.
+markdown: Kubelet Graceful Node Shutdown feature is now beta. ([#99735](https://github.com/kubernetes/kubernetes/pull/99735),
+  [@bobbypage](https://github.com/bobbypage)) [SIG Node]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/2000-graceful-node-shutdown/README.md
+  type: KEP
+author: bobbypage
+authorurl: https://github.com/bobbypage
+prurl: https://github.com/kubernetes/kubernetes/pull/99735
+prnumber: 99735
+areas:
+- kubelet
+kinds:
+- api-change
+- feature
+sigs:
+- node
+feature: true
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

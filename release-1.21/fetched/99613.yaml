@@ -1,0 +1,22 @@
+commit: 0849d1bea1e1c8910bda6db9d804945d361a2bc4
+text: Fixed a bug that causes smaller number of conntrack-max being used under CPU
+  static policy. (#99225, @xh4n3)
+markdown: Fixed a bug that causes smaller number of conntrack-max being used under
+  CPU static policy. (#99225, @xh4n3) ([#99613](https://github.com/kubernetes/kubernetes/pull/99613),
+  [@xh4n3](https://github.com/xh4n3)) [SIG Network]
+documentation: []
+author: xh4n3
+authorurl: https://github.com/xh4n3
+prurl: https://github.com/kubernetes/kubernetes/pull/99613
+prnumber: 99613
+areas: []
+kinds:
+- bug
+sigs:
+- network
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

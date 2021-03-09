@@ -1,0 +1,22 @@
+commit: 3e5954a7e113e1d95b3ca36d4d1c0e2404520392
+text: Migrate pkg/kubelet/status to structured logging
+markdown: Migrate pkg/kubelet/status to structured logging ([#99836](https://github.com/kubernetes/kubernetes/pull/99836),
+  [@navidshaikh](https://github.com/navidshaikh)) [SIG Instrumentation and Node]
+documentation: []
+author: navidshaikh
+authorurl: https://github.com/navidshaikh
+prurl: https://github.com/kubernetes/kubernetes/pull/99836
+prnumber: 99836
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- instrumentation
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

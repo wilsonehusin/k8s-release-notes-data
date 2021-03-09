@@ -1,0 +1,25 @@
+commit: e2eb9f000528556cc7af2a3db4259a60b61a3f6f
+text: stdin is now only passed to client-go exec credential plugins when it is detected
+  to be an interactive terminal. Previously, it was passed to client-go exec plugins
+  when **stdout*- was detected to be an interactive terminal.
+markdown: Stdin is now only passed to client-go exec credential plugins when it is
+  detected to be an interactive terminal. Previously, it was passed to client-go exec
+  plugins when **stdout*- was detected to be an interactive terminal. ([#99654](https://github.com/kubernetes/kubernetes/pull/99654),
+  [@ankeesler](https://github.com/ankeesler)) [SIG API Machinery and Auth]
+documentation: []
+author: ankeesler
+authorurl: https://github.com/ankeesler
+prurl: https://github.com/kubernetes/kubernetes/pull/99654
+prnumber: 99654
+areas: []
+kinds:
+- bug
+sigs:
+- api-machinery
+- auth
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,22 @@
+commit: 4fefc856db7787c0c6d8775941f9d3e71d7353da
+text: The NodeAffinity plugin implements the PreFilter extension, offering enhanced
+  performance for Filter.
+markdown: The NodeAffinity plugin implements the PreFilter extension, offering enhanced
+  performance for Filter. ([#99213](https://github.com/kubernetes/kubernetes/pull/99213),
+  [@AliceZhang2016](https://github.com/AliceZhang2016)) [SIG Scheduling]
+documentation: []
+author: AliceZhang2016
+authorurl: https://github.com/AliceZhang2016
+prurl: https://github.com/kubernetes/kubernetes/pull/99213
+prnumber: 99213
+areas: []
+kinds:
+- feature
+sigs:
+- scheduling
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

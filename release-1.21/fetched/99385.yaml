@@ -1,0 +1,35 @@
+commit: b7d146b62f111fcf60e7d44df2f48fd4e8c2ef91
+text: component owner can configure the allowlist of metric label with flag '--allow-metric-labels'.
+markdown: Component owner can configure the allowlist of metric label with flag '--allow-metric-labels'.
+  ([#99385](https://github.com/kubernetes/kubernetes/pull/99385), [@YoyinZyc](https://github.com/YoyinZyc))
+  [SIG API Machinery, CLI, Cloud Provider, Cluster Lifecycle, Instrumentation and
+  Release]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-instrumentation/2305-metrics-cardinality-enforcement
+  type: KEP
+author: YoyinZyc
+authorurl: https://github.com/YoyinZyc
+prurl: https://github.com/kubernetes/kubernetes/pull/99385
+prnumber: 99385
+areas:
+- apiserver
+- cloudprovider
+- dependency
+- kubectl
+- release-eng
+kinds:
+- feature
+sigs:
+- api-machinery
+- cli
+- cloud-provider
+- cluster-lifecycle
+- instrumentation
+- release
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

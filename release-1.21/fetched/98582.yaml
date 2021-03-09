@@ -1,0 +1,34 @@
+commit: e64547242541f56229b7c1cf9a4cf153565d17a6
+text: "1. PodAffinityTerm includes a namespaceSelector field to allow selecting eligible
+  namespaces based on their labels. \n2. A new CrossNamespacePodAffinity quota scope
+  API that allows restricting which namespaces allowed to use PodAffinityTerm with
+  corss-namespace reference via namespaceSelector or namespaces fields."
+markdown: "1. PodAffinityTerm includes a namespaceSelector field to allow selecting
+  eligible namespaces based on their labels. \n  2. A new CrossNamespacePodAffinity
+  quota scope API that allows restricting which namespaces allowed to use PodAffinityTerm
+  with corss-namespace reference via namespaceSelector or namespaces fields. ([#98582](https://github.com/kubernetes/kubernetes/pull/98582),
+  [@ahg-g](https://github.com/ahg-g)) [SIG API Machinery, Apps, Auth and Testing]"
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-scheduling/2249-pod-affinity-namespace-selector
+  type: KEP
+author: ahg-g
+authorurl: https://github.com/ahg-g
+prurl: https://github.com/kubernetes/kubernetes/pull/98582
+prnumber: 98582
+areas:
+- test
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- apps
+- auth
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

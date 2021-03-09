@@ -1,0 +1,24 @@
+commit: 2e39df89ac22d5dde2d6d04747cbee6865569f14
+text: Add support to generate client-side binaries for new darwin/arm64 platform
+markdown: Add support to generate client-side binaries for new darwin/arm64 platform
+  ([#97743](https://github.com/kubernetes/kubernetes/pull/97743), [@dims](https://github.com/dims))
+  [SIG Release and Testing]
+documentation: []
+author: dims
+authorurl: https://github.com/dims
+prurl: https://github.com/kubernetes/kubernetes/pull/97743
+prnumber: 97743
+areas:
+- release-eng
+- test
+kinds:
+- feature
+sigs:
+- release
+- testing
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,23 @@
+commit: 70d732c7e70741cd5c79335cf1ece522763a4a9e
+text: 'kube-proxy iptables: new metric sync_proxy_rules_iptables_total that exposes
+  the number of rules programmed per table in each iteration'
+markdown: 'Kube-proxy iptables: new metric sync_proxy_rules_iptables_total that exposes
+  the number of rules programmed per table in each iteration ([#99653](https://github.com/kubernetes/kubernetes/pull/99653),
+  [@aojea](https://github.com/aojea)) [SIG Instrumentation and Network]'
+documentation: []
+author: aojea
+authorurl: https://github.com/aojea
+prurl: https://github.com/kubernetes/kubernetes/pull/99653
+prnumber: 99653
+areas: []
+kinds:
+- feature
+sigs:
+- instrumentation
+- network
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

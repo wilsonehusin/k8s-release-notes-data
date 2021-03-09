@@ -1,0 +1,19 @@
+commit: 930ca8561371e71cfbff61c28994b7e85edd0a30
+text: Migrate pkg/kubelet/stats to structured logging
+markdown: Migrate pkg/kubelet/stats to structured logging ([#99607](https://github.com/kubernetes/kubernetes/pull/99607),
+  [@krzysiekg](https://github.com/krzysiekg)) [SIG Node]
+documentation: []
+author: krzysiekg
+authorurl: https://github.com/krzysiekg
+prurl: https://github.com/kubernetes/kubernetes/pull/99607
+prnumber: 99607
+areas: []
+kinds: []
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

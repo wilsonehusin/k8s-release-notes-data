@@ -1,0 +1,24 @@
+commit: 2695ef3f1b0e2fc51ffb1bcb8491a4165587a089
+text: Update the latest validated version of Docker to 20.10
+markdown: Update the latest validated version of Docker to 20.10 ([#98977](https://github.com/kubernetes/kubernetes/pull/98977),
+  [@neolit123](https://github.com/neolit123)) [SIG CLI, Cluster Lifecycle and Node]
+documentation: []
+author: neolit123
+authorurl: https://github.com/neolit123
+prurl: https://github.com/kubernetes/kubernetes/pull/98977
+prnumber: 98977
+areas:
+- dependency
+- kubectl
+kinds:
+- feature
+sigs:
+- cli
+- cluster-lifecycle
+- node
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

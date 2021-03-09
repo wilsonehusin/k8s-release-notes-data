@@ -1,0 +1,21 @@
+commit: f6152d152140f42815765c7d9703b9817943c345
+text: Creating a PVC with DataSource should fail for non-CSI plugins.
+markdown: Creating a PVC with DataSource should fail for non-CSI plugins. ([#97086](https://github.com/kubernetes/kubernetes/pull/97086),
+  [@xing-yang](https://github.com/xing-yang)) [SIG Apps and Storage]
+documentation: []
+author: xing-yang
+authorurl: https://github.com/xing-yang
+prurl: https://github.com/kubernetes/kubernetes/pull/97086
+prnumber: 97086
+areas: []
+kinds:
+- bug
+sigs:
+- apps
+- storage
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

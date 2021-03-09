@@ -1,0 +1,32 @@
+commit: 66cbf0196bd5ed0f06d7c40fccba887aae5405d8
+text: "Setting loadBalancerClass in load balancer type of service is available with
+  this PR. \nUsers who want to use a custom load balancer can specify loadBalancerClass
+  to achieve it."
+markdown: "Setting loadBalancerClass in load balancer type of service is available
+  with this PR. \n  Users who want to use a custom load balancer can specify loadBalancerClass
+  to achieve it. ([#98277](https://github.com/kubernetes/kubernetes/pull/98277), [@XudongLiuHarold](https://github.com/XudongLiuHarold))
+  [SIG API Machinery, Apps, Cloud Provider and Network]"
+documentation:
+- description: '[KEP-1959]:<'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-cloud-provider/1959-service-lb-class-field>
+  type: KEP
+author: XudongLiuHarold
+authorurl: https://github.com/XudongLiuHarold
+prurl: https://github.com/kubernetes/kubernetes/pull/98277
+prnumber: 98277
+areas:
+- cloudprovider
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- apps
+- cloud-provider
+- network
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

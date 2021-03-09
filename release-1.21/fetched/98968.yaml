@@ -1,0 +1,21 @@
+commit: a7147bb113dc5b7dd5a125664ea11fe8b53b2559
+text: Fixes add-on manager leader election
+markdown: Fixes add-on manager leader election ([#98968](https://github.com/kubernetes/kubernetes/pull/98968),
+  [@liggitt](https://github.com/liggitt)) [SIG Cloud Provider]
+documentation: []
+author: liggitt
+authorurl: https://github.com/liggitt
+prurl: https://github.com/kubernetes/kubernetes/pull/98968
+prnumber: 98968
+areas:
+- provider/gcp
+kinds:
+- bug
+sigs:
+- cloud-provider
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

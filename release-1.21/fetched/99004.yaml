@@ -1,0 +1,29 @@
+commit: 9cc3665bd3383c3683248f1bbb242670a04417ca
+text: '`kubectl exec` and `kubectl attach` now honor the `--quiet` flag which suppresses
+  output from the local binary that could be confused by a script with the remote
+  command output (all non-failure output is hidden). In addition, print inline with
+  exec and attach the list of alternate containers when we default to the first spec.container.'
+markdown: '`kubectl exec` and `kubectl attach` now honor the `--quiet` flag which
+  suppresses output from the local binary that could be confused by a script with
+  the remote command output (all non-failure output is hidden). In addition, print
+  inline with exec and attach the list of alternate containers when we default to
+  the first spec.container. ([#99004](https://github.com/kubernetes/kubernetes/pull/99004),
+  [@smarterclayton](https://github.com/smarterclayton)) [SIG CLI]'
+documentation: []
+author: smarterclayton
+authorurl: https://github.com/smarterclayton
+prurl: https://github.com/kubernetes/kubernetes/pull/99004
+prnumber: 99004
+areas:
+- kubectl
+kinds:
+- bug
+- cleanup
+sigs:
+- cli
+feature: false
+duplicate: false
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,32 @@
+commit: d6a9061cb43ab98054f0f455115d87e1b20f7971
+text: EndpointSlice Controllers are now GA. The EndpointSlice Controller will not
+  populate the `deprecatedTopology` field and will only provide topology information
+  through the `zone` and `nodeName` fields.
+markdown: EndpointSlice Controllers are now GA. The EndpointSlice Controller will
+  not populate the `deprecatedTopology` field and will only provide topology information
+  through the `zone` and `nodeName` fields. ([#99870](https://github.com/kubernetes/kubernetes/pull/99870),
+  [@swetharepakula](https://github.com/swetharepakula)) [SIG API Machinery, Apps,
+  Auth, Network and Testing]
+documentation: []
+author: swetharepakula
+authorurl: https://github.com/swetharepakula
+prurl: https://github.com/kubernetes/kubernetes/pull/99870
+prnumber: 99870
+areas:
+- apiserver
+- test
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- apps
+- auth
+- network
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

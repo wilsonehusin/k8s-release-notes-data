@@ -1,0 +1,32 @@
+commit: ed6b9addbf71cf0f5256aeba0b83b53db53d895c
+text: Adds alpha feature `VolumeCapacityPriority` which makes the scheduler prioritize
+  nodes based on the best matching size of statically provisioned PVs across multiple
+  topologies.
+markdown: Adds alpha feature `VolumeCapacityPriority` which makes the scheduler prioritize
+  nodes based on the best matching size of statically provisioned PVs across multiple
+  topologies. ([#96347](https://github.com/kubernetes/kubernetes/pull/96347), [@cofyc](https://github.com/cofyc))
+  [SIG Apps, Network, Scheduling, Storage and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-storage/1845-prioritization-on-volume-capacity
+  type: KEP
+author: cofyc
+authorurl: https://github.com/cofyc
+prurl: https://github.com/kubernetes/kubernetes/pull/96347
+prnumber: 96347
+areas:
+- test
+kinds:
+- feature
+sigs:
+- apps
+- network
+- scheduling
+- storage
+- testing
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

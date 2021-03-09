@@ -1,0 +1,24 @@
+commit: 68f48693c17e12765666479e75a8663e3e467507
+text: WindowsEndpointSliceProxying feature gate has graduated to beta and is enabled
+  by default. This means kube-proxy will  read from EndpointSlices instead of Endpoints
+  on Windows by default.
+markdown: WindowsEndpointSliceProxying feature gate has graduated to beta and is enabled
+  by default. This means kube-proxy will  read from EndpointSlices instead of Endpoints
+  on Windows by default. ([#99794](https://github.com/kubernetes/kubernetes/pull/99794),
+  [@robscott](https://github.com/robscott)) [SIG Network]
+documentation: []
+author: robscott
+authorurl: https://github.com/robscott
+prurl: https://github.com/kubernetes/kubernetes/pull/99794
+prnumber: 99794
+areas: []
+kinds:
+- feature
+sigs:
+- network
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,29 @@
+commit: c193c1b2347c2f9bfbdd4f5c4dd7f41fcd91a204
+text: Faster update the pod status reacting on probe results. Among other changes,
+  the first readiness probe will be called faster when startup probes succeeded, which
+  will make Pod status as ready faster.
+markdown: Faster update the pod status reacting on probe results. Among other changes,
+  the first readiness probe will be called faster when startup probes succeeded, which
+  will make Pod status as ready faster. ([#98376](https://github.com/kubernetes/kubernetes/pull/98376),
+  [@matthyx](https://github.com/matthyx)) [SIG Node and Testing]
+documentation: []
+author: matthyx
+authorurl: https://github.com/matthyx
+prurl: https://github.com/kubernetes/kubernetes/pull/98376
+prnumber: 98376
+areas:
+- e2e-test-framework
+- kubelet
+- test
+kinds:
+- bug
+- cleanup
+sigs:
+- node
+- testing
+feature: false
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

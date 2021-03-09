@@ -1,0 +1,37 @@
+commit: 14c25eed8d07acdfaf882674f58fd2aa4cc7afe6
+text: storage capacity tracking (= the CSIStorageCapacity feature) is beta, storage.k8s.io/v1alpha1/VolumeAttachment
+  and storage.k8s.io/v1alpha1/CSIStorageCapacity objects are deprecated
+markdown: Storage capacity tracking (= the CSIStorageCapacity feature) is beta, storage.k8s.io/v1alpha1/VolumeAttachment
+  and storage.k8s.io/v1alpha1/CSIStorageCapacity objects are deprecated ([#99641](https://github.com/kubernetes/kubernetes/pull/99641),
+  [@pohly](https://github.com/pohly)) [SIG API Machinery, Apps, Auth, Scheduling,
+  Storage and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-storage/1472-storage-capacity-tracking
+  type: KEP
+- description: '[Usage]'
+  url: https://kubernetes.io/docs/concepts/storage/storage-capacity/
+  type: official
+author: pohly
+authorurl: https://github.com/pohly
+prurl: https://github.com/kubernetes/kubernetes/pull/99641
+prnumber: 99641
+areas:
+- apiserver
+- test
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- apps
+- auth
+- scheduling
+- storage
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

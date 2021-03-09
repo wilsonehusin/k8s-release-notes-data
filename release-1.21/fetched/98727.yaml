@@ -1,0 +1,32 @@
+commit: a0341d7471c238acd03e1923161b4a2671a7fe2d
+text: Jobs API has a new .spec.suspend field that can be used to suspend and resume
+  Jobs
+markdown: Jobs API has a new .spec.suspend field that can be used to suspend and resume
+  Jobs ([#98727](https://github.com/kubernetes/kubernetes/pull/98727), [@adtac](https://github.com/adtac))
+  [SIG API Machinery, Apps, Node, Scheduling and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/pull/2234
+  type: KEP
+author: adtac
+authorurl: https://github.com/adtac
+prurl: https://github.com/kubernetes/kubernetes/pull/98727
+prnumber: 98727
+areas:
+- e2e-test-framework
+- test
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- apps
+- node
+- scheduling
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

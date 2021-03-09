@@ -1,0 +1,26 @@
+commit: 3022b3981709007977e052bc6c3c44ee715a1679
+text: The DownwardAPIHugePages feature is beta.  Users may use the feature if all
+  workers in their cluster are min 1.20 version.  The feature will be enabled by default
+  in all installations in 1.22.
+markdown: The DownwardAPIHugePages feature is beta.  Users may use the feature if
+  all workers in their cluster are min 1.20 version.  The feature will be enabled
+  by default in all installations in 1.22. ([#99610](https://github.com/kubernetes/kubernetes/pull/99610),
+  [@derekwaynecarr](https://github.com/derekwaynecarr)) [SIG Node]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/2053-downward-api-hugepages
+  type: KEP
+author: derekwaynecarr
+authorurl: https://github.com/derekwaynecarr
+prurl: https://github.com/kubernetes/kubernetes/pull/99610
+prnumber: 99610
+areas: []
+kinds: []
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

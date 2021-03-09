@@ -1,0 +1,32 @@
+commit: 0d8aae99f9debb4dfa0e56a2257f4ec74b6b641e
+text: 'kubeadm: apply the "node.kubernetes.io/exclude-from-external-load-balancers"
+  label on control plane nodes during "init", "join" and "upgrade" to preserve backwards
+  compatibility with the lagacy LB mode where nodes labeled as "master" where excluded.
+  To opt-out you can remove the label from a node. See #97543 and the linked KEP for
+  more details.'
+markdown: 'Kubeadm: apply the "node.kubernetes.io/exclude-from-external-load-balancers"
+  label on control plane nodes during "init", "join" and "upgrade" to preserve backwards
+  compatibility with the lagacy LB mode where nodes labeled as "master" where excluded.
+  To opt-out you can remove the label from a node. See #97543 and the linked KEP for
+  more details. ([#98269](https://github.com/kubernetes/kubernetes/pull/98269), [@neolit123](https://github.com/neolit123))
+  [SIG Cluster Lifecycle]'
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-architecture/1143-node-role-labels
+  type: KEP
+author: neolit123
+authorurl: https://github.com/neolit123
+prurl: https://github.com/kubernetes/kubernetes/pull/98269
+prnumber: 98269
+areas:
+- kubeadm
+kinds:
+- feature
+sigs:
+- cluster-lifecycle
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

@@ -1,0 +1,24 @@
+commit: d2d9b0e1123b962fc80957fb588e009272180ebe
+text: kubectl version changed to write a warning message to stderr if the client and
+  server version difference exceeds the supported version skew of +/-1 minor version.
+markdown: Kubectl version changed to write a warning message to stderr if the client
+  and server version difference exceeds the supported version skew of +/-1 minor version.
+  ([#98250](https://github.com/kubernetes/kubernetes/pull/98250), [@brianpursley](https://github.com/brianpursley))
+  [SIG CLI]
+documentation: []
+author: brianpursley
+authorurl: https://github.com/brianpursley
+prurl: https://github.com/kubernetes/kubernetes/pull/98250
+prnumber: 98250
+areas:
+- kubectl
+kinds:
+- feature
+sigs:
+- cli
+feature: true
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

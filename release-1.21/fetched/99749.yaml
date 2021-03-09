@@ -1,0 +1,22 @@
+commit: 96be00df69390ed41b8ec22facc43bcbb9c88aae
+text: upgrade node local dns to 1.17.0 for better IPv6 support
+markdown: Upgrade node local dns to 1.17.0 for better IPv6 support ([#99749](https://github.com/kubernetes/kubernetes/pull/99749),
+  [@pacoxu](https://github.com/pacoxu)) [SIG Cloud Provider and Network]
+documentation: []
+author: pacoxu
+authorurl: https://github.com/pacoxu
+prurl: https://github.com/kubernetes/kubernetes/pull/99749
+prnumber: 99749
+areas:
+- provider/gcp
+kinds:
+- feature
+sigs:
+- cloud-provider
+- network
+feature: true
+duplicate: true
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}

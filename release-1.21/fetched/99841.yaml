@@ -1,0 +1,28 @@
+commit: c22f099395bab603a1d365f472b86fc7bda2ca2f
+text: |-
+  pkg/kubelet/kuberuntime/kuberuntime_manager.go migrated to structured logging
+  Exit code changed from 255 to 1
+markdown: |-
+  Pkg/kubelet/kuberuntime/kuberuntime_manager.go migrated to structured logging
+    Exit code changed from 255 to 1 ([#99841](https://github.com/kubernetes/kubernetes/pull/99841), [@adisky](https://github.com/adisky)) [SIG Instrumentation and Node]
+documentation:
+- description: '[KEP]: <link> KEP'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-instrumentation/1602-structured-logging
+  type: KEP
+author: adisky
+authorurl: https://github.com/adisky
+prurl: https://github.com/kubernetes/kubernetes/pull/99841
+prnumber: 99841
+areas:
+- kubelet
+kinds:
+- cleanup
+sigs:
+- instrumentation
+- node
+feature: false
+duplicate: true
+duplicatekind: false
+actionrequired: true
+donotpublish: false
+datafields: {}

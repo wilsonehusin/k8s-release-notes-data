@@ -1,0 +1,30 @@
+commit: 06a4b6f3421b11a3df4653e07bcee8b2cfcc1b12
+text: Promote CronJobs to batch/v1
+markdown: Promote CronJobs to batch/v1 ([#99423](https://github.com/kubernetes/kubernetes/pull/99423),
+  [@soltysh](https://github.com/soltysh)) [SIG API Machinery, Apps, CLI and Testing]
+documentation:
+- description: '[KEP]'
+  url: https://github.com/kubernetes/enhancements/tree/master/keps/sig-apps/19-Graduate-CronJob-to-Stable
+  type: KEP
+author: soltysh
+authorurl: https://github.com/soltysh
+prurl: https://github.com/kubernetes/kubernetes/pull/99423
+prnumber: 99423
+areas:
+- kubectl
+- test
+- workload-api/cronjob
+kinds:
+- api-change
+- feature
+sigs:
+- api-machinery
+- apps
+- cli
+- testing
+feature: true
+duplicate: true
+duplicatekind: true
+actionrequired: false
+donotpublish: false
+datafields: {}

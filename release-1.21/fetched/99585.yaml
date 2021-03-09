@@ -1,0 +1,25 @@
+commit: 40d8aed6f3e45e15ae64ccbd45273e4a18233551
+text: Return zero time (midnight on Jan. 1, 1970) instead of negative number when
+  reporting startedAt and finishedAt of the not started or a running Pod when using
+  dockershim as a runtime.
+markdown: Return zero time (midnight on Jan. 1, 1970) instead of negative number when
+  reporting startedAt and finishedAt of the not started or a running Pod when using
+  dockershim as a runtime. ([#99585](https://github.com/kubernetes/kubernetes/pull/99585),
+  [@Iceber](https://github.com/Iceber)) [SIG Node]
+documentation: []
+author: Iceber
+authorurl: https://github.com/Iceber
+prurl: https://github.com/kubernetes/kubernetes/pull/99585
+prnumber: 99585
+areas:
+- kubelet
+kinds:
+- bug
+sigs:
+- node
+feature: false
+duplicate: false
+duplicatekind: false
+actionrequired: false
+donotpublish: false
+datafields: {}
